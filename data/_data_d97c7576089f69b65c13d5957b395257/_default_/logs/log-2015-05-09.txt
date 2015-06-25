@@ -1,0 +1,826 @@
+
+[00:05:48.137][f3d85bee] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:5745][nginx/1.0.15][fpm-fcgi]
+[00:05:48.137][f3d85bee] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[00:05:48.137][f3d85bee] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[00:05:48.138][f3d85bee] AJAX[NOTE]: Action: DoVersion
+[00:05:48.138][f3d85bee] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[00:05:48.138][f3d85bee] AJAX[DATA]: {"Action":"Version","Result":true,"Time":3}
+[00:05:48.138][f3d85bee] INFO[MEMORY]: Memory peak usage: 1.75MB
+[00:05:48.138][f3d85bee] INFO[TIME]: Time delta: 0.0035510063171387
+
+[00:32:03.052][b66d4691] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:111.170.238.159][PID:5744][nginx/1.0.15][fpm-fcgi]
+[00:32:03.052][b66d4691] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[00:32:03.052][b66d4691] REQUEST[NOTE]: [GET] https://mail.steedos.com/
+[00:32:03.054][b66d4691] INFO[MEMORY]: Memory peak usage: 1.75MB
+[00:32:03.054][b66d4691] INFO[TIME]: Time delta: 0.0091919898986816
+
+[00:32:04.500][9b410773] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:111.170.238.159][PID:18099][nginx/1.0.15][fpm-fcgi]
+[00:32:04.501][9b410773] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[00:32:04.501][9b410773] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/AppData/0/6353760627098382/
+[00:32:04.684][9b410773] APPDATA[DATA]: window.rainloopAppData={"Version":"1.7.0.210","Auth":false,"AccountHash":"","StaticPrefix":"rainloop\/v\/1.7.0.210\/static\/","AccountSignMe":false,"AuthAccountHash":"","MailToEmail":"","Email":"","DevEmail":"","DevPassword":"","Title":"\u534e\u90ae","LoadingDescription":"\u65e0\u8bba\u6d77\u89d2\u5929\u8fb9\uff0c\u534e\u90ae\u603b\u5728\u4f60\u8eab\u8fb9","LoadingDescriptionEsc":"\u65e0\u8bba\u6d77\u89d2\u5929\u8fb9\uff0c\u534e\u90ae\u603b\u5728\u4f60\u8eab\u8fb9","LoginLogo":"https:\/\/blog.steedos.com\/content\/images\/2014\/12\/AppIcon60x60.png","LoginDescription":"\u534e\u90ae","LoginCss":"","LoginPowered":false,"Token":"7cfe6901c7297c49dc79bdbad51e6979","InIframe":false,"AllowAdminPanel":true,"AllowHtmlEditorSourceButton":false,"AllowHtmlEditorBitiButtons":false,"UseRsaEncryption":false,"RsaPublicKey":"","HideDangerousActions":false,"CustomLoginLink":"","CustomLogoutLink":"","LoginDefaultDomain":"steedos.com","DetermineUserLanguage":true,"DetermineUserDomain":true,"ForgotPasswordLinkUrl":"","RegistrationLinkUrl":"","ContactsIsAllowed":false,"ChangePasswordIsAllowed":false,"JsHash":"de36e69feae38435525d9843d0bf8f1d","UseSieve":false,"UseImapThread":true,"UseImapSubscribe":true,"AllowAppendMessage":false,"MaterialDesign":true,"PremType":true,"Capa":["ADDITIONAL_ACCOUNTS","ADDITIONAL_IDENTITIES","GRAVATAR","PREFETCH","THEMES","USER_BACKGROUND","OPEN_PGP"],"Plugins":[],"AllowGoogleSocial":false,"AllowGoogleSocialAuth":false,"AllowGoogleSocialDrive":false,"AllowGoogleSocialPreview":false,"GoogleClientID":"","GoogleApiKey":"","AllowFacebookSocial":false,"AllowTwitterSocial":false,"AllowDropboxSocial":false,"DropboxApiKey":"","SupportedFacebookSocial":false,"FacebookAppID":"","FacebookAppSecret":"","ProjectHash":"4389235b71aebcb7a8c363c98eedc28e","Themes":["Default","A","Blurred","Linen","Love","Snow","Squares","SquaresDark","Stripes","Wood","Xv","Clear"],"Languages":["en","bg","de","es","fr","hu","is","it","ja-jp","ko-kr","lt","lv","nl","no","pl","pt-br","pt-pt","ro","ru","sk","sv","tr","ua","zh-cn","zh-tw"],"AllowLanguagesOnSettings":true,"AllowLanguagesOnLogin":true,"AttachmentLimit":52428800,"SignMe":"DefaultOff","UseLocalProxyForExternalImages":false,"EditorDefaultType":"Html","ShowImages":false,"ContactsAutosave":true,"MPP":20,"DesktopNotifications":false,"UseThreads":false,"ReplySameFolder":false,"Layout":1,"UseCheckboxesInList":true,"DefaultIdentityID":"","DisplayName":"","ReplyTo":"","Signature":"","SignatureToAll":false,"EnableTwoFactor":false,"ParentEmail":"","InterfaceAnimation":"Normal","UserBackgroundName":"","UserBackgroundHash":"","Theme":"Blurred","NewThemeLink":".\/?\/Css\/0\/User\/-\/Blurred\/-\/4389235b71aebcb7a8c363c98eedc28e\/Hash\/-\/","Language":"zh-cn","UserLanguage":false,"LangLink":".\/?\/Lang\/0\/zh-cn\/4389235b71aebcb7a8c363c98eedc28e\/","TemplatesLink":".\/?\/Templates\/0\/App\/4389235b71aebcb7a8c363c98eedc28e\/","PluginsLink":".\/?\/Plugins\/0\/User\/4389235b71aebcb7a8c363c98eedc28e\/"};if(window.__rlah_set){__rlah_set()};
+[00:32:04.685][9b410773] INFO[MEMORY]: Memory peak usage: 1.75MB
+[00:32:04.685][9b410773] INFO[TIME]: Time delta: 0.18623805046082
+
+[00:32:04.740][a76d6756] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:111.170.238.159][PID:6342][nginx/1.0.15][fpm-fcgi]
+[00:32:04.740][a76d6756] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[00:32:04.740][a76d6756] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/Css/0/User/-/Blurred/-/4389235b71aebcb7a8c363c98eedc28e/Hash/-/
+[00:32:04.783][a76d6756] INFO[MEMORY]: Memory peak usage: 1.75MB
+[00:32:04.783][a76d6756] INFO[TIME]: Time delta: 0.044775009155273
+
+[00:32:05.286][9dcb7488] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:111.170.238.159][PID:18091][nginx/1.0.15][fpm-fcgi]
+[00:32:05.286][9dcb7488] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[00:32:05.286][9dcb7488] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/Plugins/0/User/4389235b71aebcb7a8c363c98eedc28e/
+
+[00:32:05.289][4e4ef46e] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:111.170.238.159][PID:18089][nginx/1.0.15][fpm-fcgi]
+[00:32:05.289][4e4ef46e] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[00:32:05.289][4e4ef46e] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/Lang/0/zh-cn/4389235b71aebcb7a8c363c98eedc28e/
+
+[00:32:05.292][c64609ae] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:111.170.238.159][PID:7521][nginx/1.0.15][fpm-fcgi]
+[00:32:05.292][c64609ae] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[00:32:05.292][c64609ae] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/Templates/0/App/4389235b71aebcb7a8c363c98eedc28e/
+[00:32:05.305][9dcb7488] INFO[MEMORY]: Memory peak usage: 1.75MB
+[00:32:05.305][9dcb7488] INFO[TIME]: Time delta: 0.02177095413208
+[00:32:05.322][4e4ef46e] INFO[MEMORY]: Memory peak usage: 1.75MB
+[00:32:05.322][4e4ef46e] INFO[TIME]: Time delta: 0.035017013549805
+[00:32:05.323][c64609ae] INFO[MEMORY]: Memory peak usage: 1.75MB
+[00:32:05.323][c64609ae] INFO[TIME]: Time delta: 0.032888889312744
+
+[00:43:49.621][2da6e9b3] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:121.40.83.80][PID:5748][nginx/1.0.15][fpm-fcgi]
+[00:43:49.621][2da6e9b3] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[00:43:49.621][2da6e9b3] REQUEST[NOTE]: [GET] http://182.92.230.126/
+[00:43:49.623][2da6e9b3] INFO[MEMORY]: Memory peak usage: 1.75MB
+[00:43:49.623][2da6e9b3] INFO[TIME]: Time delta: 0.0038001537322998
+
+[01:03:17.735][85fed222] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:113.57.194.131][PID:18119][nginx/1.0.15][fpm-fcgi]
+[01:03:17.735][85fed222] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[01:03:17.735][85fed222] REQUEST[NOTE]: [HEAD] http://182.92.230.126:80/
+[01:03:17.736][85fed222] INFO[MEMORY]: Memory peak usage: 1.75MB
+[01:03:17.736][85fed222] INFO[TIME]: Time delta: 0.0034370422363281
+
+[01:03:17.986][88ea33c2] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:113.57.194.131][PID:18115][nginx/1.0.15][fpm-fcgi]
+[01:03:17.986][88ea33c2] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[01:03:17.986][88ea33c2] REQUEST[NOTE]: [GET] http://182.92.230.126:80/
+[01:03:17.988][88ea33c2] INFO[MEMORY]: Memory peak usage: 1.75MB
+[01:03:17.988][88ea33c2] INFO[TIME]: Time delta: 0.003399133682251
+
+[01:06:07.028][6162f850] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:5747][nginx/1.0.15][fpm-fcgi]
+[01:06:07.028][6162f850] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[01:06:07.028][6162f850] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[01:06:07.028][6162f850] AJAX[NOTE]: Action: DoVersion
+[01:06:07.028][6162f850] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[01:06:07.028][6162f850] AJAX[DATA]: {"Action":"Version","Result":true,"Time":3}
+[01:06:07.029][6162f850] INFO[MEMORY]: Memory peak usage: 1.75MB
+[01:06:07.029][6162f850] INFO[TIME]: Time delta: 0.0030670166015625
+
+[02:06:27.337][ad4d2772] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:18108][nginx/1.0.15][fpm-fcgi]
+[02:06:27.337][ad4d2772] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[02:06:27.337][ad4d2772] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[02:06:27.337][ad4d2772] AJAX[NOTE]: Action: DoVersion
+[02:06:27.337][ad4d2772] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[02:06:27.337][ad4d2772] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[02:06:27.338][ad4d2772] INFO[MEMORY]: Memory peak usage: 1.75MB
+[02:06:27.338][ad4d2772] INFO[TIME]: Time delta: 0.0029709339141846
+
+[03:06:42.147][6068be18] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:14385][nginx/1.0.15][fpm-fcgi]
+[03:06:42.147][6068be18] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[03:06:42.148][6068be18] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[03:06:42.148][6068be18] AJAX[NOTE]: Action: DoVersion
+[03:06:42.148][6068be18] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[03:06:42.148][6068be18] AJAX[DATA]: {"Action":"Version","Result":true,"Time":32}
+[03:06:42.166][6068be18] INFO[MEMORY]: Memory peak usage: 1.75MB
+[03:06:42.166][6068be18] INFO[TIME]: Time delta: 0.03016996383667
+
+[03:36:35.812][8a3d437f] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:23.110.80.2][PID:14393][nginx/1.0.15][fpm-fcgi]
+[03:36:35.812][8a3d437f] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[03:36:35.812][8a3d437f] REQUEST[NOTE]: [GET] http://search.yahoo.com/
+[03:36:35.836][8a3d437f] INFO[MEMORY]: Memory peak usage: 1.75MB
+[03:36:35.836][8a3d437f] INFO[TIME]: Time delta: 0.026087999343872
+
+[03:37:40.117][9513a999] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:23.110.80.2][PID:7475][nginx/1.0.15][fpm-fcgi]
+[03:37:40.117][9513a999] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[03:37:40.117][9513a999] REQUEST[NOTE]: [GET] http://sg.search.yahoo.com/
+[03:37:40.119][9513a999] INFO[MEMORY]: Memory peak usage: 1.75MB
+[03:37:40.119][9513a999] INFO[TIME]: Time delta: 0.0037870407104492
+
+[04:08:29.235][30471228] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:216.218.206.68][PID:5750][nginx/1.0.15][fpm-fcgi]
+[04:08:29.235][30471228] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[04:08:29.235][30471228] REQUEST[NOTE]: [GET] https://182.92.230.126/
+[04:08:29.237][30471228] INFO[MEMORY]: Memory peak usage: 1.75MB
+[04:08:29.237][30471228] INFO[TIME]: Time delta: 0.0038809776306152
+
+[04:13:35.005][9ac80ca5] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:216.218.206.68][PID:5746][nginx/1.0.15][fpm-fcgi]
+[04:13:35.005][9ac80ca5] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[04:13:35.005][9ac80ca5] REQUEST[NOTE]: [GET] https://182.92.230.126/
+[04:13:35.007][9ac80ca5] INFO[MEMORY]: Memory peak usage: 1.75MB
+[04:13:35.007][9ac80ca5] INFO[TIME]: Time delta: 0.0032398700714111
+
+[05:06:55.730][4d9a6e3c] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:5745][nginx/1.0.15][fpm-fcgi]
+[05:06:55.730][4d9a6e3c] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[05:06:55.730][4d9a6e3c] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[05:06:55.730][4d9a6e3c] AJAX[NOTE]: Action: DoVersion
+[05:06:55.730][4d9a6e3c] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[05:06:55.730][4d9a6e3c] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[05:06:55.731][4d9a6e3c] INFO[MEMORY]: Memory peak usage: 1.75MB
+[05:06:55.731][4d9a6e3c] INFO[TIME]: Time delta: 0.0029149055480957
+
+[06:06:57.948][6487341e] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:5744][nginx/1.0.15][fpm-fcgi]
+[06:06:57.948][6487341e] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[06:06:57.948][6487341e] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[06:06:57.948][6487341e] AJAX[NOTE]: Action: DoVersion
+[06:06:57.948][6487341e] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[06:06:57.948][6487341e] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[06:06:57.949][6487341e] INFO[MEMORY]: Memory peak usage: 1.75MB
+[06:06:57.949][6487341e] INFO[TIME]: Time delta: 0.0028989315032959
+
+[08:07:20.000][2ef569c6] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:18089][nginx/1.0.15][fpm-fcgi]
+[08:07:20.000][2ef569c6] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[08:07:20.000][2ef569c6] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[08:07:20.000][2ef569c6] AJAX[NOTE]: Action: DoVersion
+[08:07:20.000][2ef569c6] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[08:07:20.001][2ef569c6] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[08:07:20.001][2ef569c6] INFO[MEMORY]: Memory peak usage: 1.75MB
+[08:07:20.001][2ef569c6] INFO[TIME]: Time delta: 0.0028510093688965
+
+[08:52:53.015][84a1aa8a] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:198.20.69.74][PID:7521][nginx/1.0.15][fpm-fcgi]
+[08:52:53.016][84a1aa8a] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[08:52:53.016][84a1aa8a] REQUEST[NOTE]: [GET] https://182.92.230.126/
+[08:52:53.036][84a1aa8a] INFO[MEMORY]: Memory peak usage: 1.75MB
+[08:52:53.036][84a1aa8a] INFO[TIME]: Time delta: 0.022526025772095
+
+[09:07:38.052][f0922cf3] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:5748][nginx/1.0.15][fpm-fcgi]
+[09:07:38.052][f0922cf3] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[09:07:38.052][f0922cf3] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[09:07:38.053][f0922cf3] AJAX[NOTE]: Action: DoVersion
+[09:07:38.053][f0922cf3] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[09:07:38.053][f0922cf3] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[09:07:38.054][f0922cf3] INFO[MEMORY]: Memory peak usage: 1.75MB
+[09:07:38.054][f0922cf3] INFO[TIME]: Time delta: 0.002892017364502
+
+[10:07:53.470][fc453f12] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:18119][nginx/1.0.15][fpm-fcgi]
+[10:07:53.471][fc453f12] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[10:07:53.471][fc453f12] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[10:07:53.471][fc453f12] AJAX[NOTE]: Action: DoVersion
+[10:07:53.471][fc453f12] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[10:07:53.471][fc453f12] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[10:07:53.472][fc453f12] INFO[MEMORY]: Memory peak usage: 1.75MB
+[10:07:53.472][fc453f12] INFO[TIME]: Time delta: 0.0029430389404297
+
+[11:08:12.173][cab046cc] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:18115][nginx/1.0.15][fpm-fcgi]
+[11:08:12.173][cab046cc] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:08:12.173][cab046cc] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[11:08:12.173][cab046cc] AJAX[NOTE]: Action: DoVersion
+[11:08:12.173][cab046cc] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[11:08:12.174][cab046cc] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[11:08:12.174][cab046cc] INFO[MEMORY]: Memory peak usage: 1.75MB
+[11:08:12.174][cab046cc] INFO[TIME]: Time delta: 0.0028979778289795
+
+[11:54:16.166][42a95e04] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:180.152.234.66][PID:5747][nginx/1.0.15][fpm-fcgi]
+[11:54:16.166][42a95e04] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:54:16.166][42a95e04] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_n5ktBkrYzjH05yXiIjW1Xcczszv3iVpezdZ7py9F-Wy26AKvPXWBGn7f81eeQlsfRCb1rWVpFCjFjHJXBem2gUiyjKc-tYkhVSrcsFIz7wq_zSOeGA04nvMMiUTn540b8Ji9wXNst_TbU16rnYNiPk8c1iXLp2Iduz16PlQjiGTZq0rhvtMJkEXAo2DZgPrZ-t81rYXMfeN7IZsJ4O702YkjZ-BHE5-dCEgCHY_8bznq74aTA7_kjb9IBjHp63qvG85j8NUrhujyl1hkuQDNA-TleHPwyT6uel64QN5rMdStVg4ftLS_mF1HaTEv4ul0aqNhKcR6N4puWGAw/
+[11:54:16.167][42a95e04] AJAX[NOTE]: Action: DoFolderInformation
+[11:54:16.167][42a95e04] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"5966","Action":"FolderInformation","XToken":"5995d46233c3bdf2ed812796aefec4fe"}
+[11:54:16.311][42a95e04] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+
+[11:54:16.363][841d0c87] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:180.152.234.66][PID:18108][nginx/1.0.15][fpm-fcgi]
+[11:54:16.363][841d0c87] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:54:16.363][841d0c87] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_n5ktBkrYzjH05yXiIjW1Xcczszv3iVpezdZ7py9F-Wy26AKvPXWBGn7f81eeQlsfRCb1rWVpFCjFjHJXBem2gUiyjKc-tYkhVSrcsFIz7wq_zSOeGA04nvMMiUTn540b8Ji9wXNst_TbU16rnYNiPk8c1iXLp2Iduz16PlQjiGTZq0rhvtMJkEXAo2DZgPrZ-t81rYXMfeN7IZsJ4O702YkjZ-BHE5-dCEgCHY_8bznq74aTA7_kjb9IBjHp63qvG85j8NUrhujyl1hkuQDNA-TleHPwyT6uel64QN5rMdStVg4ftLS_mF1HaTEv4ul0aqNhKcR6N4puWGAw/
+[11:54:16.363][841d0c87] AJAX[NOTE]: Action: DoFolders
+[11:54:16.363][841d0c87] POST[DATA]: {"SentFolder":"Sent","DraftFolder":"Drafts","SpamFolder":"Junk","TrashFolder":"Trash","ArchiveFolder":"Archive","Action":"Folders","XToken":"5995d46233c3bdf2ed812796aefec4fe"}
+
+[11:54:16.370][07f2acb4] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:180.152.234.66][PID:14385][nginx/1.0.15][fpm-fcgi]
+[11:54:16.370][07f2acb4] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:54:16.370][07f2acb4] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_n5ktBkrYzjH05yXiIjW1Xcczszv3iVpezdZ7py9F-Wy26AKvPXWBGn7f81eeQlsfRCb1rWVpFCjFjHJXBem2gUiyjKc-tYkhVSrcsFIz7wq_zSOeGA04nvMMiUTn540b8Ji9wXNst_TbU16rnYNiPk8c1iXLp2Iduz16PlQjiGTZq0rhvtMJkEXAo2DZgPrZ-t81rYXMfeN7IZsJ4O702YkjZ-BHE5-dCEgCHY_8bznq74aTA7_kjb9IBjHp63qvG85j8NUrhujyl1hkuQDNA-TleHPwyT6uel64QN5rMdStVg4ftLS_mF1HaTEv4ul0aqNhKcR6N4puWGAw/
+[11:54:16.384][07f2acb4] AJAX[NOTE]: Action: DoFolderInformation
+[11:54:16.384][07f2acb4] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"5966","Action":"FolderInformation","XToken":"5995d46233c3bdf2ed812796aefec4fe"}
+[11:54:16.386][07f2acb4] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[11:54:16.390][841d0c87] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[11:54:16.490][841d0c87] IMAP[NOTE]: Connected (success)
+[11:54:16.496][841d0c87] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[11:54:16.499][841d0c87] IMAP[SECURE]: > TAG1 LOGIN "support@steedos.com" "********"\r\n
+[11:54:16.581][07f2acb4] IMAP[NOTE]: Connected (success)
+[11:54:16.593][07f2acb4] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[11:54:16.593][07f2acb4] IMAP[SECURE]: > TAG1 LOGIN "support@steedos.com" "********"\r\n
+[11:54:16.596][841d0c87] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[11:54:16.604][841d0c87] IMAP[DATA]: > TAG2 LIST "" "*"\r\n
+[11:54:16.604][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Archive"\r\n
+[11:54:16.604][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&UiCWZHaEmHl27g-"\r\n
+[11:54:16.605][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Trash"\r\n
+[11:54:16.605][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Sent"\r\n
+[11:54:16.605][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Sent Messages"\r\n
+[11:54:16.605][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&i6KWBZCuTvY-"\r\n
+[11:54:16.605][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&V4NXPpCuTvY-"\r\n
+[11:54:16.605][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "APP&U9FeAw-"\r\n
+[11:54:16.605][841d0c87] IMAP[DATA]: < * LIST (\HasChildren) "." "Contacts"\r\n
+[11:54:16.606][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Contacts.&W6JiNw-"\r\n
+[11:54:16.606][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Emailed Contacts"\r\n
+[11:54:16.606][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&g0l6Pw-"\r\n
+[11:54:16.606][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Junk"\r\n
+[11:54:16.606][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&XfJT0ZAB-"\r\n
+[11:54:16.606][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "IMO&lsZiEA-"\r\n
+[11:54:16.607][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&XfJT0ZABkK5O9g-"\r\n
+[11:54:16.607][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Deleted Messages"\r\n
+[11:54:16.607][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&Xn9USpCuTvY-"\r\n
+[11:54:16.607][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&XfJSIJZk-"\r\n
+[11:54:16.607][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Chats"\r\n
+[11:54:16.610][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Drafts"\r\n
+[11:54:16.610][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&g0l6P3ux-"\r\n
+[11:54:16.611][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Notes"\r\n
+[11:54:16.611][841d0c87] IMAP[DATA]: < * LIST (\HasNoChildren) "." "INBOX"\r\n
+[11:54:16.611][841d0c87] IMAP[DATA]: < TAG2 OK List completed.\r\n
+[11:54:16.618][841d0c87] IMAP[DATA]: > TAG3 LSUB "" "*"\r\n
+[11:54:16.618][841d0c87] IMAP[DATA]: < * LSUB () "." "Trash"\r\n
+[11:54:16.618][841d0c87] IMAP[DATA]: < * LSUB () "." "Sent"\r\n
+[11:54:16.618][841d0c87] IMAP[DATA]: < * LSUB () "." "&UiCWZHaEmHl27g-"\r\n
+[11:54:16.618][841d0c87] IMAP[DATA]: < * LSUB () "." "&V4NXPpCuTvY-"\r\n
+[11:54:16.619][841d0c87] IMAP[DATA]: < * LSUB () "." "&XfJSIJZk-"\r\n
+[11:54:16.619][841d0c87] IMAP[DATA]: < * LSUB () "." "&XfJT0ZAB-"\r\n
+[11:54:16.619][841d0c87] IMAP[DATA]: < * LSUB () "." "&XfJT0ZABkK5O9g-"\r\n
+[11:54:16.619][841d0c87] IMAP[DATA]: < * LSUB () "." "&Xn9USpCuTvY-"\r\n
+[11:54:16.619][841d0c87] IMAP[DATA]: < * LSUB () "." "&g0l6P3ux-"\r\n
+[11:54:16.619][841d0c87] IMAP[DATA]: < * LSUB () "." "&g0l6Pw-"\r\n
+[11:54:16.619][841d0c87] IMAP[DATA]: < * LSUB () "." "&i6KWBZCuTvY-"\r\n
+[11:54:16.620][841d0c87] IMAP[DATA]: < * LSUB () "." "APP&U9FeAw-"\r\n
+[11:54:16.620][841d0c87] IMAP[DATA]: < * LSUB () "." "Deleted Messages"\r\n
+[11:54:16.620][841d0c87] IMAP[DATA]: < * LSUB () "." "Drafts"\r\n
+[11:54:16.620][841d0c87] IMAP[DATA]: < * LSUB () "." "IMO&lsZiEA-"\r\n
+[11:54:16.620][841d0c87] IMAP[DATA]: < * LSUB () "." "INBOX"\r\n
+[11:54:16.620][841d0c87] IMAP[DATA]: < * LSUB () "." "Junk"\r\n
+[11:54:16.620][841d0c87] IMAP[DATA]: < * LSUB () "." "Notes"\r\n
+[11:54:16.621][841d0c87] IMAP[DATA]: < * LSUB () "." "Sent Messages"\r\n
+[11:54:16.621][841d0c87] IMAP[DATA]: < * LSUB () "." "Archive"\r\n
+[11:54:16.621][841d0c87] IMAP[DATA]: < TAG3 OK Lsub completed.\r\n
+[11:54:16.645][42a95e04] IMAP[NOTE]: Connected (success)
+[11:54:16.658][841d0c87] IMAP[DATA]: > TAG4 CAPABILITY\r\n
+[11:54:16.658][841d0c87] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[11:54:16.659][841d0c87] IMAP[DATA]: < TAG4 OK Capability completed.\r\n
+[11:54:16.659][841d0c87] IMAP[DATA]: > TAG5 NAMESPACE\r\n
+[11:54:16.659][841d0c87] IMAP[DATA]: < * NAMESPACE (("" ".")) NIL NIL\r\n
+[11:54:16.660][841d0c87] IMAP[DATA]: < TAG5 OK Namespace completed.\r\n
+[11:54:16.671][841d0c87] AJAX[DATA]: {"Action":"Folders","Result":{"@Object":"Collection\/FolderCollection","@Count":23,"@Collection":[{"@Object":"Object\/Folder","Name":"INBOX","FullName":"INBOX","FullNameRaw":"INBOX","FullNameHash":"INBOX","Delimiter":".","HasVisibleSubFolders":false,"IsSubscribed":true,"IsExists":true,"IsSelectable"...
+[11:54:16.672][841d0c87] IMAP[DATA]: > TAG6 LOGOUT\r\n
+[11:54:16.672][841d0c87] IMAP[DATA]: < * BYE Logging out\r\n
+[11:54:16.672][841d0c87] IMAP[DATA]: < TAG6 OK Logout completed.\r\n
+[11:54:16.672][841d0c87] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[11:54:16.672][841d0c87] INFO[MEMORY]: Memory peak usage: 2MB
+[11:54:16.672][841d0c87] INFO[TIME]: Time delta: 0.31105184555054
+[11:54:16.715][42a95e04] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[11:54:16.716][42a95e04] IMAP[SECURE]: > TAG1 LOGIN "support@steedos.com" "********"\r\n
+[11:54:16.804][07f2acb4] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[11:54:16.807][07f2acb4] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:54:16.808][07f2acb4] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 4204 UIDNEXT 6001 UNSEEN 37)\r\n
+[11:54:16.808][07f2acb4] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[11:54:16.808][07f2acb4] IMAP[DATA]: > TAG3 SELECT "INBOX"\r\n
+[11:54:16.809][07f2acb4] IMAP[DATA]: < * FLAGS (\Answered \Flagged \Deleted \Seen \Draft $Forwarded Forwarded $Junk $NotJunk Junk JunkRecorded NotJunk)\r\n
+[11:54:16.809][07f2acb4] IMAP[DATA]: < * OK [PERMANENTFLAGS (\Answered \Flagged \Deleted \Seen \Draft $Forwarded Forwarded $Junk $NotJunk Junk JunkRecorded NotJunk \*)] Flags permitted.\r\n
+[11:54:16.809][07f2acb4] IMAP[DATA]: < * 4204 EXISTS\r\n
+[11:54:16.809][07f2acb4] IMAP[DATA]: < * 0 RECENT\r\n
+[11:54:16.809][07f2acb4] IMAP[DATA]: < * OK [UNSEEN 4168] First unseen.\r\n
+[11:54:16.810][07f2acb4] IMAP[DATA]: < * OK [UIDVALIDITY 1418040704] UIDs valid\r\n
+[11:54:16.810][07f2acb4] IMAP[DATA]: < * OK [UIDNEXT 6001] Predicted next UID\r\n
+[11:54:16.810][07f2acb4] IMAP[DATA]: < * OK [HIGHESTMODSEQ 10987] Highest\r\n
+[11:54:16.810][07f2acb4] IMAP[DATA]: < TAG3 OK [READ-WRITE] Select completed.\r\n
+[11:54:16.810][42a95e04] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[11:54:16.811][42a95e04] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:54:16.812][42a95e04] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 4204 UIDNEXT 6001 UNSEEN 37)\r\n
+[11:54:16.812][42a95e04] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[11:54:16.812][42a95e04] IMAP[DATA]: > TAG3 SELECT "INBOX"\r\n
+[11:54:16.813][42a95e04] IMAP[DATA]: < * FLAGS (\Answered \Flagged \Deleted \Seen \Draft $Forwarded Forwarded $Junk $NotJunk Junk JunkRecorded NotJunk)\r\n
+[11:54:16.813][42a95e04] IMAP[DATA]: < * OK [PERMANENTFLAGS (\Answered \Flagged \Deleted \Seen \Draft $Forwarded Forwarded $Junk $NotJunk Junk JunkRecorded NotJunk \*)] Flags permitted.\r\n
+[11:54:16.813][42a95e04] IMAP[DATA]: < * 4204 EXISTS\r\n
+[11:54:16.813][42a95e04] IMAP[DATA]: < * 0 RECENT\r\n
+[11:54:16.813][42a95e04] IMAP[DATA]: < * OK [UNSEEN 4168] First unseen.\r\n
+[11:54:16.814][42a95e04] IMAP[DATA]: < * OK [UIDVALIDITY 1418040704] UIDs valid\r\n
+[11:54:16.814][42a95e04] IMAP[DATA]: < * OK [UIDNEXT 6001] Predicted next UID\r\n
+[11:54:16.814][42a95e04] IMAP[DATA]: < * OK [HIGHESTMODSEQ 10987] Highest\r\n
+[11:54:16.814][42a95e04] IMAP[DATA]: < TAG3 OK [READ-WRITE] Select completed.\r\n
+[11:54:16.833][07f2acb4] IMAP[DATA]: > TAG4 UID FETCH 5966:* (UID RFC822.SIZE FLAGS BODY.PEEK[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)])\r\n
+[11:54:16.833][42a95e04] IMAP[DATA]: > TAG4 UID FETCH 5966:* (UID RFC822.SIZE FLAGS BODY.PEEK[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)])\r\n
+[11:54:16.844][07f2acb4] IMAP[DATA]: < * 4170 FETCH (UID 5966 RFC822.SIZE 12180 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {118}\r\n
+[11:54:16.844][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.844][07f2acb4] IMAP[DATA]: < * 4171 FETCH (UID 5967 RFC822.SIZE 10329 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {143}\r\n
+[11:54:16.845][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.845][07f2acb4] IMAP[DATA]: < * 4172 FETCH (UID 5968 RFC822.SIZE 5142 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {199}\r\n
+[11:54:16.845][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.845][07f2acb4] IMAP[DATA]: < * 4173 FETCH (UID 5969 RFC822.SIZE 13677 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {148}\r\n
+[11:54:16.845][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.846][07f2acb4] IMAP[DATA]: < * 4174 FETCH (UID 5970 RFC822.SIZE 13901 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {187}\r\n
+[11:54:16.846][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.846][07f2acb4] IMAP[DATA]: < * 4175 FETCH (UID 5971 RFC822.SIZE 19020 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {156}\r\n
+[11:54:16.850][42a95e04] IMAP[DATA]: < * 4170 FETCH (UID 5966 RFC822.SIZE 12180 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {118}\r\n
+[11:54:16.850][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.850][42a95e04] IMAP[DATA]: < * 4171 FETCH (UID 5967 RFC822.SIZE 10329 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {143}\r\n
+[11:54:16.851][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.851][42a95e04] IMAP[DATA]: < * 4172 FETCH (UID 5968 RFC822.SIZE 5142 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {199}\r\n
+[11:54:16.851][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.851][42a95e04] IMAP[DATA]: < * 4173 FETCH (UID 5969 RFC822.SIZE 13677 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {148}\r\n
+[11:54:16.851][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.851][42a95e04] IMAP[DATA]: < * 4174 FETCH (UID 5970 RFC822.SIZE 13901 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {187}\r\n
+[11:54:16.852][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.852][42a95e04] IMAP[DATA]: < * 4175 FETCH (UID 5971 RFC822.SIZE 19020 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {156}\r\n
+[11:54:16.852][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.852][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.852][07f2acb4] IMAP[DATA]: < * 4176 FETCH (UID 5972 RFC822.SIZE 3197 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {339}\r\n
+[11:54:16.853][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.853][07f2acb4] IMAP[DATA]: < * 4177 FETCH (UID 5973 RFC822.SIZE 23082 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {150}\r\n
+[11:54:16.853][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.853][07f2acb4] IMAP[DATA]: < * 4178 FETCH (UID 5974 RFC822.SIZE 3578 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {201}\r\n
+[11:54:16.853][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.853][07f2acb4] IMAP[DATA]: < * 4179 FETCH (UID 5975 RFC822.SIZE 7659 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {159}\r\n
+[11:54:16.854][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.854][07f2acb4] IMAP[DATA]: < * 4180 FETCH (UID 5976 RFC822.SIZE 13946 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {163}\r\n
+[11:54:16.852][42a95e04] IMAP[DATA]: < * 4176 FETCH (UID 5972 RFC822.SIZE 3197 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {339}\r\n
+[11:54:16.854][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.855][42a95e04] IMAP[DATA]: < * 4177 FETCH (UID 5973 RFC822.SIZE 23082 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {150}\r\n
+[11:54:16.855][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.855][42a95e04] IMAP[DATA]: < * 4178 FETCH (UID 5974 RFC822.SIZE 3578 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {201}\r\n
+[11:54:16.855][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.855][42a95e04] IMAP[DATA]: < * 4179 FETCH (UID 5975 RFC822.SIZE 7659 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {159}\r\n
+[11:54:16.856][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.856][42a95e04] IMAP[DATA]: < * 4180 FETCH (UID 5976 RFC822.SIZE 13946 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {163}\r\n
+[11:54:16.856][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.856][42a95e04] IMAP[DATA]: < * 4181 FETCH (UID 5977 RFC822.SIZE 3613 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {164}\r\n
+[11:54:16.854][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.856][07f2acb4] IMAP[DATA]: < * 4181 FETCH (UID 5977 RFC822.SIZE 3613 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {164}\r\n
+[11:54:16.857][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.857][07f2acb4] IMAP[DATA]: < * 4182 FETCH (UID 5978 RFC822.SIZE 34405 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {152}\r\n
+[11:54:16.857][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.857][07f2acb4] IMAP[DATA]: < * 4183 FETCH (UID 5979 RFC822.SIZE 3194 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {339}\r\n
+[11:54:16.857][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.857][07f2acb4] IMAP[DATA]: < * 4184 FETCH (UID 5980 RFC822.SIZE 3681 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {152}\r\n
+[11:54:16.858][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.858][07f2acb4] IMAP[DATA]: < * 4185 FETCH (UID 5981 RFC822.SIZE 3285 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {384}\r\n
+[11:54:16.858][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.858][07f2acb4] IMAP[DATA]: < * 4186 FETCH (UID 5982 RFC822.SIZE 3861 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {196}\r\n
+[11:54:16.858][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.859][07f2acb4] IMAP[DATA]: < * 4187 FETCH (UID 5983 RFC822.SIZE 9960 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {128}\r\n
+[11:54:16.859][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.859][07f2acb4] IMAP[DATA]: < * 4188 FETCH (UID 5984 RFC822.SIZE 3086 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {285}\r\n
+[11:54:16.859][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.859][42a95e04] IMAP[DATA]: < * 4182 FETCH (UID 5978 RFC822.SIZE 34405 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {152}\r\n
+[11:54:16.860][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.860][42a95e04] IMAP[DATA]: < * 4183 FETCH (UID 5979 RFC822.SIZE 3194 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {339}\r\n
+[11:54:16.860][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.860][42a95e04] IMAP[DATA]: < * 4184 FETCH (UID 5980 RFC822.SIZE 3681 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {152}\r\n
+[11:54:16.861][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.861][42a95e04] IMAP[DATA]: < * 4185 FETCH (UID 5981 RFC822.SIZE 3285 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {384}\r\n
+[11:54:16.861][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.861][42a95e04] IMAP[DATA]: < * 4186 FETCH (UID 5982 RFC822.SIZE 3861 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {196}\r\n
+[11:54:16.861][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.861][42a95e04] IMAP[DATA]: < * 4187 FETCH (UID 5983 RFC822.SIZE 9960 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {128}\r\n
+[11:54:16.862][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.862][42a95e04] IMAP[DATA]: < * 4188 FETCH (UID 5984 RFC822.SIZE 3086 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {285}\r\n
+[11:54:16.862][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.862][07f2acb4] IMAP[DATA]: < * 4189 FETCH (UID 5985 RFC822.SIZE 5168 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {287}\r\n
+[11:54:16.863][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.863][07f2acb4] IMAP[DATA]: < * 4190 FETCH (UID 5986 RFC822.SIZE 12316 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {276}\r\n
+[11:54:16.863][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.863][07f2acb4] IMAP[DATA]: < * 4191 FETCH (UID 5987 RFC822.SIZE 1017032 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {164}\r\n
+[11:54:16.863][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.863][07f2acb4] IMAP[DATA]: < * 4192 FETCH (UID 5988 RFC822.SIZE 19799 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {259}\r\n
+[11:54:16.864][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.864][07f2acb4] IMAP[DATA]: < * 4193 FETCH (UID 5989 RFC822.SIZE 3195 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {339}\r\n
+[11:54:16.864][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.864][07f2acb4] IMAP[DATA]: < * 4194 FETCH (UID 5990 RFC822.SIZE 30610 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {235}\r\n
+[11:54:16.864][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.865][07f2acb4] IMAP[DATA]: < * 4195 FETCH (UID 5991 RFC822.SIZE 42825 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {204}\r\n
+[11:54:16.865][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.865][07f2acb4] IMAP[DATA]: < * 4196 FETCH (UID 5992 RFC822.SIZE 3030 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {258}\r\n
+[11:54:16.862][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.865][42a95e04] IMAP[DATA]: < * 4189 FETCH (UID 5985 RFC822.SIZE 5168 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {287}\r\n
+[11:54:16.866][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.866][42a95e04] IMAP[DATA]: < * 4190 FETCH (UID 5986 RFC822.SIZE 12316 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {276}\r\n
+[11:54:16.866][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.866][42a95e04] IMAP[DATA]: < * 4191 FETCH (UID 5987 RFC822.SIZE 1017032 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {164}\r\n
+[11:54:16.866][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.866][42a95e04] IMAP[DATA]: < * 4192 FETCH (UID 5988 RFC822.SIZE 19799 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {259}\r\n
+[11:54:16.867][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.867][42a95e04] IMAP[DATA]: < * 4193 FETCH (UID 5989 RFC822.SIZE 3195 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {339}\r\n
+[11:54:16.867][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.867][42a95e04] IMAP[DATA]: < * 4194 FETCH (UID 5990 RFC822.SIZE 30610 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {235}\r\n
+[11:54:16.867][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.868][42a95e04] IMAP[DATA]: < * 4195 FETCH (UID 5991 RFC822.SIZE 42825 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {204}\r\n
+[11:54:16.868][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.868][42a95e04] IMAP[DATA]: < * 4196 FETCH (UID 5992 RFC822.SIZE 3030 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {258}\r\n
+[11:54:16.868][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.868][07f2acb4] IMAP[DATA]: < * 4197 FETCH (UID 5993 RFC822.SIZE 3177 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {330}\r\n
+[11:54:16.869][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.869][07f2acb4] IMAP[DATA]: < * 4198 FETCH (UID 5994 RFC822.SIZE 42139 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {217}\r\n
+[11:54:16.869][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.869][07f2acb4] IMAP[DATA]: < * 4199 FETCH (UID 5995 RFC822.SIZE 3418 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {163}\r\n
+[11:54:16.869][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.869][07f2acb4] IMAP[DATA]: < * 4200 FETCH (UID 5996 RFC822.SIZE 42878 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {213}\r\n
+[11:54:16.870][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.870][07f2acb4] IMAP[DATA]: < * 4201 FETCH (UID 5997 RFC822.SIZE 50590 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {218}\r\n
+[11:54:16.870][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.870][07f2acb4] IMAP[DATA]: < * 4202 FETCH (UID 5998 RFC822.SIZE 3250 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {366}\r\n
+[11:54:16.871][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.871][07f2acb4] IMAP[DATA]: < * 4203 FETCH (UID 5999 RFC822.SIZE 2420 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {44}\r\n
+[11:54:16.871][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.871][07f2acb4] IMAP[DATA]: < * 4204 FETCH (UID 6000 RFC822.SIZE 57612 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {212}\r\n
+[11:54:16.871][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.871][42a95e04] IMAP[DATA]: < * 4197 FETCH (UID 5993 RFC822.SIZE 3177 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {330}\r\n
+[11:54:16.872][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.872][42a95e04] IMAP[DATA]: < * 4198 FETCH (UID 5994 RFC822.SIZE 42139 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {217}\r\n
+[11:54:16.872][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.872][42a95e04] IMAP[DATA]: < * 4199 FETCH (UID 5995 RFC822.SIZE 3418 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {163}\r\n
+[11:54:16.872][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.872][42a95e04] IMAP[DATA]: < * 4200 FETCH (UID 5996 RFC822.SIZE 42878 FLAGS ($Junk Junk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {213}\r\n
+[11:54:16.873][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.873][42a95e04] IMAP[DATA]: < * 4201 FETCH (UID 5997 RFC822.SIZE 50590 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {218}\r\n
+[11:54:16.873][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.873][42a95e04] IMAP[DATA]: < * 4202 FETCH (UID 5998 RFC822.SIZE 3250 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {366}\r\n
+[11:54:16.874][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.874][42a95e04] IMAP[DATA]: < * 4203 FETCH (UID 5999 RFC822.SIZE 2420 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {44}\r\n
+[11:54:16.874][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.874][42a95e04] IMAP[DATA]: < * 4204 FETCH (UID 6000 RFC822.SIZE 57612 FLAGS ($NotJunk NotJunk) BODY[HEADER.FIELDS (FROM SUBJECT CONTENT-TYPE)] {212}\r\n
+[11:54:16.874][07f2acb4] IMAP[DATA]: < )\r\n
+[11:54:16.874][07f2acb4] IMAP[DATA]: < TAG4 OK Fetch completed.\r\n
+[11:54:16.875][42a95e04] IMAP[DATA]: < )\r\n
+[11:54:16.875][42a95e04] IMAP[DATA]: < TAG4 OK Fetch completed.\r\n
+[11:54:16.962][07f2acb4] PHP[NOTICE]: /var/www/rainloop/rainloop/v/1.7.0.210/app/libraries/MailSo/Base/Utils.php [line:317, code:8]
+[11:54:16.962][07f2acb4] PHP[NOTICE]: Error: iconv(): Detected an illegal character in input string
+[11:54:16.976][07f2acb4] PHP[NOTICE]: /var/www/rainloop/rainloop/v/1.7.0.210/app/libraries/MailSo/Base/Utils.php [line:317, code:8]
+[11:54:16.976][07f2acb4] PHP[NOTICE]: Error: iconv(): Detected an illegal character in input string
+[11:54:16.981][42a95e04] PHP[NOTICE]: /var/www/rainloop/rainloop/v/1.7.0.210/app/libraries/MailSo/Base/Utils.php [line:317, code:8]
+[11:54:16.981][42a95e04] PHP[NOTICE]: Error: iconv(): Detected an illegal character in input string
+[11:54:16.982][42a95e04] PHP[NOTICE]: /var/www/rainloop/rainloop/v/1.7.0.210/app/libraries/MailSo/Base/Utils.php [line:317, code:8]
+[11:54:16.982][42a95e04] PHP[NOTICE]: Error: iconv(): Detected an illegal character in input string
+[11:54:17.752][42a95e04] PHP[NOTICE]: /var/www/rainloop/rainloop/v/1.7.0.210/app/libraries/MailSo/Base/Utils.php [line:317, code:8]
+[11:54:17.753][42a95e04] PHP[NOTICE]: Error: iconv(): Detected an illegal character in input string
+[11:54:17.753][42a95e04] PHP[NOTICE]: /var/www/rainloop/rainloop/v/1.7.0.210/app/libraries/MailSo/Base/Utils.php [line:317, code:8]
+[11:54:17.753][42a95e04] PHP[NOTICE]: Error: iconv(): Detected an illegal character in input string
+[11:54:17.755][07f2acb4] PHP[NOTICE]: /var/www/rainloop/rainloop/v/1.7.0.210/app/libraries/MailSo/Base/Utils.php [line:317, code:8]
+[11:54:17.755][07f2acb4] PHP[NOTICE]: Error: iconv(): Detected an illegal character in input string
+[11:54:17.756][07f2acb4] PHP[NOTICE]: /var/www/rainloop/rainloop/v/1.7.0.210/app/libraries/MailSo/Base/Utils.php [line:317, code:8]
+[11:54:17.756][07f2acb4] PHP[NOTICE]: Error: iconv(): Detected an illegal character in input string
+[11:54:17.765][42a95e04] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"234af09393cc80023ca629a2be223aef","MessageCount":4204,"MessageUnseenCount":37,"UidNext":"6001","Flags":[],"NewMessages":[{"Folder":"INBOX","Uid":"5966","Subject":"\u9500\u552e\u56e2\u961f\u7ba1\u7406","From":[{"@Object":"Object\/Email"...
+[11:54:17.765][07f2acb4] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"234af09393cc80023ca629a2be223aef","MessageCount":4204,"MessageUnseenCount":37,"UidNext":"6001","Flags":[],"NewMessages":[{"Folder":"INBOX","Uid":"5966","Subject":"\u9500\u552e\u56e2\u961f\u7ba1\u7406","From":[{"@Object":"Object\/Email"...
+[11:54:17.767][07f2acb4] IMAP[DATA]: > TAG5 LOGOUT\r\n
+[11:54:17.767][07f2acb4] IMAP[DATA]: < * BYE Logging out\r\n
+[11:54:17.767][07f2acb4] IMAP[DATA]: < TAG5 OK Logout completed.\r\n
+[11:54:17.767][07f2acb4] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[11:54:17.767][07f2acb4] INFO[MEMORY]: Memory peak usage: 2.25MB
+[11:54:17.767][07f2acb4] INFO[TIME]: Time delta: 1.3989880084991
+[11:54:17.768][42a95e04] IMAP[DATA]: > TAG5 LOGOUT\r\n
+[11:54:17.768][42a95e04] IMAP[DATA]: < * BYE Logging out\r\n
+[11:54:17.768][42a95e04] IMAP[DATA]: < TAG5 OK Logout completed.\r\n
+[11:54:17.768][42a95e04] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[11:54:17.769][42a95e04] INFO[MEMORY]: Memory peak usage: 2.25MB
+[11:54:17.769][42a95e04] INFO[TIME]: Time delta: 1.604297876358
+
+[11:54:19.358][bafbde2e] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:180.152.234.66][PID:14393][nginx/1.0.15][fpm-fcgi]
+[11:54:19.358][bafbde2e] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:54:19.358][bafbde2e] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/Ajax/&s=/_n5ktBkrYzjH05yXiIjW1Xcczszv3iVpezdZ7py9F-Wy26AKvPXWBGn7f81eeQlsfRCb1rWVpFCjFjHJXBem2gUiyjKc-tYkhVSrcsFIz7wq_zSOeGA04nvMMiUTn540b8Ji9wXNst_TbU16rnYNiPk8c1iXLp2Iduz16PlQjiGTZq0rhvtMJkEXAo2DZgPrZ-t81rYXMfeN7IZsJ4O702YkjZ-BHE5-dCEgCHY_8bznq74aTA7_kjb9IBjHp63qvG85j8NUrhujyl1hkuQDNA-TleHPwyT6uel64QN5rMdStVg4ftLS_mF1HaTEv4ul0aqNhKcR6N4puWGAw/MessageList/SU5CT1gAMAAyMAAAOWFjMjlhNzRlODdjYTIyZDg3OTlmNjg2YTBkMTA1NGQAMjM0YWYwOTM5M2NjODAwMjNjYTYyOWEyYmUyMjNhZWYANjAwMQAwAA..
+[11:54:19.358][bafbde2e] AJAX[NOTE]: Action: DoMessageList
+[11:54:19.361][bafbde2e] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[11:54:19.361][bafbde2e] IMAP[NOTE]: Connected (success)
+[11:54:19.366][bafbde2e] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[11:54:19.366][bafbde2e] IMAP[SECURE]: > TAG1 LOGIN "support@steedos.com" "********"\r\n
+[11:54:19.458][bafbde2e] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[11:54:19.459][bafbde2e] IMAP[DATA]: > TAG2 SELECT "INBOX"\r\n
+[11:54:19.460][bafbde2e] IMAP[DATA]: < * FLAGS (\Answered \Flagged \Deleted \Seen \Draft $Forwarded Forwarded $Junk $NotJunk Junk JunkRecorded NotJunk)\r\n
+[11:54:19.460][bafbde2e] IMAP[DATA]: < * OK [PERMANENTFLAGS (\Answered \Flagged \Deleted \Seen \Draft $Forwarded Forwarded $Junk $NotJunk Junk JunkRecorded NotJunk \*)] Flags permitted.\r\n
+[11:54:19.460][bafbde2e] IMAP[DATA]: < * 4204 EXISTS\r\n
+[11:54:19.460][bafbde2e] IMAP[DATA]: < * 0 RECENT\r\n
+[11:54:19.460][bafbde2e] IMAP[DATA]: < * OK [UNSEEN 4168] First unseen.\r\n
+[11:54:19.461][bafbde2e] IMAP[DATA]: < * OK [UIDVALIDITY 1418040704] UIDs valid\r\n
+[11:54:19.461][bafbde2e] IMAP[DATA]: < * OK [UIDNEXT 6001] Predicted next UID\r\n
+[11:54:19.461][bafbde2e] IMAP[DATA]: < * OK [HIGHESTMODSEQ 10987] Highest\r\n
+[11:54:19.461][bafbde2e] IMAP[DATA]: < TAG2 OK [READ-WRITE] Select completed.\r\n
+[11:54:19.463][bafbde2e] IMAP[DATA]: > TAG3 CAPABILITY\r\n
+[11:54:19.463][bafbde2e] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[11:54:19.463][bafbde2e] IMAP[DATA]: < TAG3 OK Capability completed.\r\n
+[11:54:19.464][bafbde2e] IMAP[DATA]: > TAG4 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:54:19.464][bafbde2e] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 4204 UIDNEXT 6001 UNSEEN 37)\r\n
+[11:54:19.464][bafbde2e] IMAP[DATA]: < TAG4 OK [CLIENTBUG] Status on selected mailbox completed.\r\n
+[11:54:19.469][bafbde2e] IMAP[DATA]: > TAG5 FETCH 4204,4203,4202,4201,4200,4199,4198,4197,4196,4195,4194,4193,4192,4191,4190,4189,4188,4187,4186,4185 (UID RFC822.SIZE INTERNALDATE FLAGS BODYSTRUCTURE BODY.PEEK[HEADER])\r\n
+[11:54:19.479][bafbde2e] IMAP[DATA]: < * 4185 FETCH (UID 5981 RFC822.SIZE 3285 INTERNALDATE "09-May-2015 08:51:46 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE (("text" "plain" ("charset" "utf-8" "format" "flowed") NIL NIL "quoted-printable" 2 1 NIL NIL NIL NIL)("text" "html" ("charset" "utf-8") NIL NIL "quoted-printable" 773 15 NIL NIL NIL NIL) "alternative" ("boundary" "----=_NextPart_UARKW9yKG7J_d5RoSAQJ6WHyG") NIL NIL NIL) BODY[HEADER] {1998}\r\n
+[11:54:19.480][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.480][bafbde2e] IMAP[DATA]: < * 4186 FETCH (UID 5982 RFC822.SIZE 3861 INTERNALDATE "09-May-2015 08:52:18 +0800" FLAGS ($Junk Junk) BODYSTRUCTURE ("text" "plain" ("charset" "Shift_JIS") NIL NIL "7bit" 772 96 NIL NIL NIL NIL) BODY[HEADER] {3089}\r\n
+[11:54:19.480][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.480][bafbde2e] IMAP[DATA]: < * 4187 FETCH (UID 5983 RFC822.SIZE 9960 INTERNALDATE "09-May-2015 09:09:25 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE ("text" "plain" ("charset" "GB2312") NIL NIL "7bit" 9063 355 NIL NIL NIL NIL) BODY[HEADER] {897}\r\n
+[11:54:19.481][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.481][bafbde2e] IMAP[DATA]: < * 4188 FETCH (UID 5984 RFC822.SIZE 3086 INTERNALDATE "09-May-2015 10:23:26 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE (("text" "plain" ("charset" "utf-8" "format" "flowed") NIL NIL "quoted-printable" 2 1 NIL NIL NIL NIL)("text" "html" ("charset" "utf-8") NIL NIL "quoted-printable" 673 14 NIL NIL NIL NIL) "alternative" ("boundary" "----=_NextPart_9AkW_X1uD_IWeW.bthlh9MVub") NIL NIL NIL) BODY[HEADER] {1899}\r\n
+[11:54:19.482][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.482][bafbde2e] IMAP[DATA]: < * 4189 FETCH (UID 5985 RFC822.SIZE 5168 INTERNALDATE "09-May-2015 12:17:30 +0800" FLAGS ($Junk Junk) BODYSTRUCTURE ("text" "plain" ("charset" "Shift_JIS") NIL NIL "7bit" 1885 45 NIL NIL NIL NIL) BODY[HEADER] {3283}\r\n
+[11:54:19.482][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.482][bafbde2e] IMAP[DATA]: < * 4190 FETCH (UID 5986 RFC822.SIZE 12316 INTERNALDATE "09-May-2015 12:25:13 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE ("text" "html" ("charset" "utf-8") NIL NIL "base64" 10962 143 NIL NIL NIL NIL) BODY[HEADER] {1354}\r\n
+[11:54:19.483][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.483][bafbde2e] IMAP[DATA]: < * 4191 FETCH (UID 5987 RFC822.SIZE 1017032 INTERNALDATE "09-May-2015 13:57:42 +0800" FLAGS ($Junk Junk) BODYSTRUCTURE (("text" "plain" ("charset" "utf-8") NIL NIL "base64" 92 2 NIL NIL NIL NIL)("application" "vnd.ms-excel" ("name" "=?utf-8?B?NWFv5rW35aSW5biC5Zy65ouT5bGVLnhscw==?=") NIL NIL "base64" 1015216 NIL ("attachment" ("filename" "=?utf-8?B?NWFv5rW35aSW5biC5Zy65ouT5bGVLnhscw==?=")) NIL NIL) "mixed" ("boundary" "----=_NextPart_000_070F_01C63C99.1702FC20") NIL NIL NIL) BODY[HEADER] {1267}\r\n
+[11:54:19.484][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.484][bafbde2e] IMAP[DATA]: < * 4192 FETCH (UID 5988 RFC822.SIZE 19799 INTERNALDATE "09-May-2015 14:23:37 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE (("text" "plain" ("charset" "UTF-8") NIL NIL "7bit" 734 6 NIL NIL NIL NIL)("text" "html" ("charset" "UTF-8") NIL NIL "quoted-printable" 14815 336 NIL NIL NIL NIL) "alternative" ("boundary" "----=_Part_18906796_890511646.1431152612126") NIL NIL NIL) BODY[HEADER] {3940}\r\n
+[11:54:19.485][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.485][bafbde2e] IMAP[DATA]: < * 4193 FETCH (UID 5989 RFC822.SIZE 3195 INTERNALDATE "09-May-2015 14:55:37 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE (("text" "plain" ("charset" "utf-8" "format" "flowed") NIL NIL "quoted-printable" 2 1 NIL NIL NIL NIL)("text" "html" ("charset" "utf-8") NIL NIL "quoted-printable" 728 15 NIL NIL NIL NIL) "alternative" ("boundary" "----=_NextPart_6o01_A7QvIn5YvRS6IF35oBoR") NIL NIL NIL) BODY[HEADER] {1953}\r\n
+[11:54:19.486][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.486][bafbde2e] IMAP[DATA]: < * 4194 FETCH (UID 5990 RFC822.SIZE 30610 INTERNALDATE "09-May-2015 15:01:24 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE ((("text" "html" ("charset" "UTF-8") NIL NIL "quoted-printable" 28601 477 NIL NIL NIL NIL) "related" ("boundary" "----=_Part_413_1925367719.1431154882833") NIL NIL NIL) "mixed" ("boundary" "----=_Part_412_463164521.1431154882833") NIL NIL NIL) BODY[HEADER] {1651}\r\n
+[11:54:19.486][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.486][bafbde2e] IMAP[DATA]: < * 4195 FETCH (UID 5991 RFC822.SIZE 42825 INTERNALDATE "09-May-2015 15:15:46 +0800" FLAGS ($Junk Junk) BODYSTRUCTURE (("text" "html" ("charset" "utf-8") NIL NIL "base64" 374 5 NIL NIL NIL NIL)("application" "vnd.ms-excel" ("name" "=?utf-8?B?5aaC5L2V6L+b6KGM5Lqn5ZOB5biC5Zy66ZyA5rGC566h55CG77yfNzEueGxz?=") NIL NIL "base64" 40638 NIL ("attachment" ("filename" "=?utf-8?B?5aaC5L2V6L+b6KGM5Lqn5ZOB5biC5Zy66ZyA5rGC566h55CG77yfNzEueGxz?=")) NIL NIL) "mixed" ("boundary" "----=_NextPart_000_0554_0177AB38.1EA655D0") NIL NIL NIL) BODY[HEADER] {1307}\r\n
+[11:54:19.487][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.487][bafbde2e] IMAP[DATA]: < * 4196 FETCH (UID 5992 RFC822.SIZE 3030 INTERNALDATE "09-May-2015 15:56:04 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE (("text" "plain" ("charset" "utf-8" "format" "flowed") NIL NIL "quoted-printable" 2 1 NIL NIL NIL NIL)("text" "html" ("charset" "utf-8") NIL NIL "quoted-printable" 644 14 NIL NIL NIL NIL) "alternative" ("boundary" "----=_NextPart_tuy0JWP22gwURwdN9JOIOP1Gr") NIL NIL NIL) BODY[HEADER] {1872}\r\n
+[11:54:19.488][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.488][bafbde2e] IMAP[DATA]: < * 4197 FETCH (UID 5993 RFC822.SIZE 3177 INTERNALDATE "09-May-2015 16:22:18 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE (("text" "plain" ("charset" "utf-8" "format" "flowed") NIL NIL "quoted-printable" 2 1 NIL NIL NIL NIL)("text" "html" ("charset" "utf-8") NIL NIL "quoted-printable" 719 15 NIL NIL NIL NIL) "alternative" ("boundary" "----=_NextPart_bKeaB1e2.._S_bjRi_v2qb02L") NIL NIL NIL) BODY[HEADER] {1944}\r\n
+[11:54:19.489][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.489][bafbde2e] IMAP[DATA]: < * 4198 FETCH (UID 5994 RFC822.SIZE 42139 INTERNALDATE "09-May-2015 16:24:27 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE (("text" "html" ("charset" "utf-8") NIL NIL "base64" 370 5 NIL NIL NIL NIL)("application" "vnd.ms-excel" ("name" "=?utf-8?B?6YCg5oiQ6YeH6LSt6aOO6Zmp55qE5Zug57Sg5pyJ5ZOq5Lqb77yfNTMueGxz?=") NIL NIL "base64" 39936 NIL ("attachment" ("filename" "=?utf-8?B?6YCg5oiQ6YeH6LSt6aOO6Zmp55qE5Zug57Sg5pyJ5ZOq5Lqb77yfNTMueGxz?=")) NIL NIL) "mixed" ("boundary" "----=_NextPart_000_0124_01B3CB3B.1906F5C0") NIL NIL NIL) BODY[HEADER] {1327}\r\n
+[11:54:19.490][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.490][bafbde2e] IMAP[DATA]: < * 4199 FETCH (UID 5995 RFC822.SIZE 3418 INTERNALDATE "09-May-2015 16:25:07 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE ("text" "plain" ("charset" "SHIFT_JIS") NIL NIL "7bit" 686 32 NIL NIL NIL NIL) BODY[HEADER] {2732}\r\n
+[11:54:19.490][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.490][bafbde2e] IMAP[DATA]: < * 4200 FETCH (UID 5996 RFC822.SIZE 42878 INTERNALDATE "09-May-2015 17:05:16 +0800" FLAGS ($Junk Junk) BODYSTRUCTURE (("text" "html" ("charset" "utf-8") NIL NIL "base64" 370 5 NIL NIL NIL NIL)("application" "vnd.ms-excel" ("name" "=?utf-8?B?5aaC5L2V6YCa6L+H5oub5oqV5qCH6L+b6KGM5pyJ5pWI55qE4oCc56CN5Lu34oCdNDU1Lnhscw==?=") NIL NIL "base64" 40638 NIL ("attachment" ("filename" "=?utf-8?B?5aaC5L2V6YCa6L+H5oub5oqV5qCH6L+b6KGM5pyJ5pWI55qE4oCc56CN5Lu34oCdNDU1Lnhscw==?=")) NIL NIL) "mixed" ("boundary" "----=_NextPart_000_06BC_01CEA2B7.12DDFD70") NIL NIL NIL) BODY[HEADER] {1332}\r\n
+[11:54:19.491][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.491][bafbde2e] IMAP[DATA]: < * 4201 FETCH (UID 5997 RFC822.SIZE 50590 INTERNALDATE "09-May-2015 17:32:37 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE (("text" "html" ("charset" "utf-8") NIL NIL "base64" 370 5 NIL NIL NIL NIL)("application" "vnd.ms-excel" ("name" "=?utf-8?B?5aaC5L2V5o+Q6auY54mp5rWB5LuT5YKo55qE55S15a2Q5YyW5rC05bmz77yfCTY0MS54bHM=?=") NIL NIL "base64" 48344 NIL ("attachment" ("filename" "=?utf-8?B?5aaC5L2V5o+Q6auY54mp5rWB5LuT5YKo55qE55S15a2Q5YyW5rC05bmz77yfCTY0MS54bHM=?=")) NIL NIL) "mixed" ("boundary" "----=_NextPart_000_017B_01BA6575.1A3C2CC0") NIL NIL NIL) BODY[HEADER] {1346}\r\n
+[11:54:19.492][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.492][bafbde2e] IMAP[DATA]: < * 4202 FETCH (UID 5998 RFC822.SIZE 3250 INTERNALDATE "09-May-2015 17:52:46 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE (("text" "plain" ("charset" "utf-8" "format" "flowed") NIL NIL "quoted-printable" 2 1 NIL NIL NIL NIL)("text" "html" ("charset" "utf-8") NIL NIL "quoted-printable" 756 15 NIL NIL NIL NIL) "alternative" ("boundary" "----=_NextPart_BA6rNYD_N99u4248.W9g05w.s") NIL NIL NIL) BODY[HEADER] {1980}\r\n
+[11:54:19.493][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.493][bafbde2e] IMAP[DATA]: < * 4203 FETCH (UID 5999 RFC822.SIZE 2420 INTERNALDATE "09-May-2015 18:35:17 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE ("text" "plain" ("charset" "us-ascii") NIL NIL "7bit" 0 0 NIL NIL NIL NIL) BODY[HEADER] {2420}\r\n
+[11:54:19.493][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.493][bafbde2e] IMAP[DATA]: < * 4204 FETCH (UID 6000 RFC822.SIZE 57612 INTERNALDATE "09-May-2015 19:36:49 +0800" FLAGS ($NotJunk NotJunk) BODYSTRUCTURE (("text" "html" ("charset" "utf-8") NIL NIL "base64" 444 6 NIL NIL NIL NIL)("application" "vnd.ms-excel" ("name" "=?utf-8?B?6ams6KGo5rWL6YeP6L+H56iL5LiO5oqA5benLnhscw==?=") NIL NIL "base64" 55352 NIL ("attachment" ("filename" "=?utf-8?B?6ams6KGo5rWL6YeP6L+H56iL5LiO5oqA5benLnhscw==?=")) NIL NIL) "mixed" ("boundary" "----=_NextPart_000_0D2B_01E0FDB6.11F83AA0") NIL NIL NIL) BODY[HEADER] {1344}\r\n
+[11:54:19.494][bafbde2e] IMAP[DATA]: < )\r\n
+[11:54:19.494][bafbde2e] IMAP[DATA]: < TAG5 OK Fetch completed.\r\n
+[11:54:19.575][bafbde2e] PHP[NOTICE]: /var/www/rainloop/rainloop/v/1.7.0.210/app/libraries/MailSo/Base/Utils.php [line:317, code:8]
+[11:54:19.576][bafbde2e] PHP[NOTICE]: Error: iconv(): Detected an illegal character in input string
+[11:54:19.662][bafbde2e] AJAX[DATA]: {"Action":"MessageList","Result":{"@Object":"Collection\/MessageCollection","@Count":20,"@Collection":[{"@Object":"Object\/Message","Folder":"INBOX","Uid":"6000","Subject":"\u6807\u51c6\u5de5\u65f6\u7684\u4e09\u79cd\u8ba1\u7b97\u65b9\u6cd5","MessageId":"<93675F148C0979BCFB31A9274DB3A4D0@zlukanezj>",...
+[11:54:19.663][bafbde2e] IMAP[DATA]: > TAG6 LOGOUT\r\n
+[11:54:19.663][bafbde2e] IMAP[DATA]: < * BYE Logging out\r\n
+[11:54:19.663][bafbde2e] IMAP[DATA]: < TAG6 OK Logout completed.\r\n
+[11:54:19.664][bafbde2e] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[11:54:19.664][bafbde2e] INFO[MEMORY]: Memory peak usage: 3.25MB
+[11:54:19.664][bafbde2e] INFO[TIME]: Time delta: 0.30751919746399
+
+[11:54:19.986][36c75649] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:180.152.234.66][PID:7475][nginx/1.0.15][fpm-fcgi]
+[11:54:19.986][36c75649] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:54:19.986][36c75649] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_n5ktBkrYzjH05yXiIjW1Xcczszv3iVpezdZ7py9F-Wy26AKvPXWBGn7f81eeQlsfRCb1rWVpFCjFjHJXBem2gUiyjKc-tYkhVSrcsFIz7wq_zSOeGA04nvMMiUTn540b8Ji9wXNst_TbU16rnYNiPk8c1iXLp2Iduz16PlQjiGTZq0rhvtMJkEXAo2DZgPrZ-t81rYXMfeN7IZsJ4O702YkjZ-BHE5-dCEgCHY_8bznq74aTA7_kjb9IBjHp63qvG85j8NUrhujyl1hkuQDNA-TleHPwyT6uel64QN5rMdStVg4ftLS_mF1HaTEv4ul0aqNhKcR6N4puWGAw/
+[11:54:19.986][36c75649] AJAX[NOTE]: Action: DoFolderInformationMultiply
+[11:54:19.986][36c75649] POST[DATA]: {"Folders":["IMO&lsZiEA-","&XfJT0ZAB-","&XfJT0ZABkK5O9g-","APP&U9FeAw-","Archive"],"Action":"FolderInformationMultiply","XToken":"5995d46233c3bdf2ed812796aefec4fe"}
+[11:54:19.988][36c75649] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[11:54:19.989][36c75649] IMAP[NOTE]: Connected (success)
+[11:54:19.993][36c75649] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[11:54:19.994][36c75649] IMAP[SECURE]: > TAG1 LOGIN "support@steedos.com" "********"\r\n
+[11:54:20.087][36c75649] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[11:54:20.088][36c75649] IMAP[DATA]: > TAG2 STATUS "IMO&lsZiEA-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:54:20.088][36c75649] IMAP[DATA]: < * STATUS "IMO&lsZiEA-" (MESSAGES 12 UIDNEXT 13 UNSEEN 0)\r\n
+[11:54:20.089][36c75649] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[11:54:20.089][36c75649] IMAP[DATA]: > TAG3 STATUS "&XfJT0ZAB-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:54:20.089][36c75649] IMAP[DATA]: < * STATUS "&XfJT0ZAB-" (MESSAGES 48 UIDNEXT 49 UNSEEN 0)\r\n
+[11:54:20.089][36c75649] IMAP[DATA]: < TAG3 OK Status completed.\r\n
+[11:54:20.090][36c75649] IMAP[DATA]: > TAG4 STATUS "&XfJT0ZABkK5O9g-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:54:20.090][36c75649] IMAP[DATA]: < * STATUS "&XfJT0ZABkK5O9g-" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[11:54:20.090][36c75649] IMAP[DATA]: < TAG4 OK Status completed.\r\n
+[11:54:20.090][36c75649] IMAP[DATA]: > TAG5 STATUS "APP&U9FeAw-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:54:20.091][36c75649] IMAP[DATA]: < * STATUS "APP&U9FeAw-" (MESSAGES 27 UIDNEXT 28 UNSEEN 0)\r\n
+[11:54:20.091][36c75649] IMAP[DATA]: < TAG5 OK Status completed.\r\n
+[11:54:20.091][36c75649] IMAP[DATA]: > TAG6 STATUS "Archive" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:54:20.091][36c75649] IMAP[DATA]: < * STATUS "Archive" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[11:54:20.091][36c75649] IMAP[DATA]: < TAG6 OK Status completed.\r\n
+[11:54:20.092][36c75649] AJAX[DATA]: {"Action":"FolderInformationMultiply","Result":{"List":[{"Folder":"IMO&lsZiEA-","Hash":"920c0153740fc921bbe49351c755aa04","MessageCount":12,"MessageUnseenCount":0,"UidNext":"13","Flags":[],"NewMessages":[]},{"Folder":"&XfJT0ZAB-","Hash":"cde24630b350823a6a866efb27a474e3","MessageCount":48,"MessageUn...
+[11:54:20.092][36c75649] IMAP[DATA]: > TAG7 LOGOUT\r\n
+[11:54:20.092][36c75649] IMAP[DATA]: < * BYE Logging out\r\n
+[11:54:20.092][36c75649] IMAP[DATA]: < TAG7 OK Logout completed.\r\n
+[11:54:20.092][36c75649] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[11:54:20.093][36c75649] INFO[MEMORY]: Memory peak usage: 1.75MB
+[11:54:20.093][36c75649] INFO[TIME]: Time delta: 0.10850191116333
+
+[11:56:00.133][a56f204e] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:180.152.234.66][PID:5750][nginx/1.0.15][fpm-fcgi]
+[11:56:00.133][a56f204e] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:56:00.133][a56f204e] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_n5ktBkrYzjH05yXiIjW1Xcczszv3iVpezdZ7py9F-Wy26AKvPXWBGn7f81eeQlsfRCb1rWVpFCjFjHJXBem2gUiyjKc-tYkhVSrcsFIz7wq_zSOeGA04nvMMiUTn540b8Ji9wXNst_TbU16rnYNiPk8c1iXLp2Iduz16PlQjiGTZq0rhvtMJkEXAo2DZgPrZ-t81rYXMfeN7IZsJ4O702YkjZ-BHE5-dCEgCHY_8bznq74aTA7_kjb9IBjHp63qvG85j8NUrhujyl1hkuQDNA-TleHPwyT6uel64QN5rMdStVg4ftLS_mF1HaTEv4ul0aqNhKcR6N4puWGAw/
+[11:56:00.134][a56f204e] AJAX[NOTE]: Action: DoFolderInformationMultiply
+[11:56:00.134][a56f204e] POST[DATA]: {"Folders":["&g0l6Pw-","&g0l6P3ux-","&i6KWBZCuTvY-","Chats","Emailed Contacts"],"Action":"FolderInformationMultiply","XToken":"5995d46233c3bdf2ed812796aefec4fe"}
+[11:56:00.137][a56f204e] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[11:56:00.137][a56f204e] IMAP[NOTE]: Connected (success)
+[11:56:00.159][a56f204e] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[11:56:00.160][a56f204e] IMAP[SECURE]: > TAG1 LOGIN "support@steedos.com" "********"\r\n
+[11:56:00.253][a56f204e] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[11:56:00.254][a56f204e] IMAP[DATA]: > TAG2 STATUS "&g0l6Pw-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:56:00.254][a56f204e] IMAP[DATA]: < * STATUS "&g0l6Pw-" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[11:56:00.254][a56f204e] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[11:56:00.255][a56f204e] IMAP[DATA]: > TAG3 STATUS "&g0l6P3ux-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:56:00.255][a56f204e] IMAP[DATA]: < * STATUS "&g0l6P3ux-" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[11:56:00.255][a56f204e] IMAP[DATA]: < TAG3 OK Status completed.\r\n
+[11:56:00.255][a56f204e] IMAP[DATA]: > TAG4 STATUS "&i6KWBZCuTvY-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:56:00.256][a56f204e] IMAP[DATA]: < * STATUS "&i6KWBZCuTvY-" (MESSAGES 5 UIDNEXT 6 UNSEEN 4)\r\n
+[11:56:00.256][a56f204e] IMAP[DATA]: < TAG4 OK Status completed.\r\n
+[11:56:00.256][a56f204e] IMAP[DATA]: > TAG5 STATUS "Chats" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:56:00.256][a56f204e] IMAP[DATA]: < * STATUS "Chats" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[11:56:00.257][a56f204e] IMAP[DATA]: < TAG5 OK Status completed.\r\n
+[11:56:00.257][a56f204e] IMAP[DATA]: > TAG6 STATUS "Emailed Contacts" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:56:00.257][a56f204e] IMAP[DATA]: < * STATUS "Emailed Contacts" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[11:56:00.257][a56f204e] IMAP[DATA]: < TAG6 OK Status completed.\r\n
+[11:56:00.257][a56f204e] AJAX[DATA]: {"Action":"FolderInformationMultiply","Result":{"List":[{"Folder":"&g0l6Pw-","Hash":"07ca564f3459b936f7e2c7cd43e7ff9d","MessageCount":0,"MessageUnseenCount":0,"UidNext":"1","Flags":[],"NewMessages":[]},{"Folder":"&g0l6P3ux-","Hash":"2c431043e2a957665b962082ef1b4edc","MessageCount":0,"MessageUnseenCo...
+[11:56:00.258][a56f204e] IMAP[DATA]: > TAG7 LOGOUT\r\n
+[11:56:00.258][a56f204e] IMAP[DATA]: < * BYE Logging out\r\n
+[11:56:00.258][a56f204e] IMAP[DATA]: < TAG7 OK Logout completed.\r\n
+[11:56:00.258][a56f204e] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[11:56:00.258][a56f204e] INFO[MEMORY]: Memory peak usage: 1.75MB
+[11:56:00.259][a56f204e] INFO[TIME]: Time delta: 0.12819004058838
+
+[11:56:21.831][b4c5f237] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:180.152.234.66][PID:5746][nginx/1.0.15][fpm-fcgi]
+[11:56:21.831][b4c5f237] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:56:21.831][b4c5f237] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_n5ktBkrYzjH05yXiIjW1Xcczszv3iVpezdZ7py9F-Wy26AKvPXWBGn7f81eeQlsfRCb1rWVpFCjFjHJXBem2gUiyjKc-tYkhVSrcsFIz7wq_zSOeGA04nvMMiUTn540b8Ji9wXNst_TbU16rnYNiPk8c1iXLp2Iduz16PlQjiGTZq0rhvtMJkEXAo2DZgPrZ-t81rYXMfeN7IZsJ4O702YkjZ-BHE5-dCEgCHY_8bznq74aTA7_kjb9IBjHp63qvG85j8NUrhujyl1hkuQDNA-TleHPwyT6uel64QN5rMdStVg4ftLS_mF1HaTEv4ul0aqNhKcR6N4puWGAw/
+[11:56:21.832][b4c5f237] AJAX[NOTE]: Action: DoFolderInformation
+[11:56:21.832][b4c5f237] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"6001","Action":"FolderInformation","XToken":"5995d46233c3bdf2ed812796aefec4fe"}
+[11:56:21.834][b4c5f237] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[11:56:21.834][b4c5f237] IMAP[NOTE]: Connected (success)
+[11:56:21.839][b4c5f237] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[11:56:21.839][b4c5f237] IMAP[SECURE]: > TAG1 LOGIN "support@steedos.com" "********"\r\n
+
+[11:56:21.865][e4e31340] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:180.152.234.66][PID:5745][nginx/1.0.15][fpm-fcgi]
+[11:56:21.865][e4e31340] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:56:21.865][e4e31340] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_n5ktBkrYzjH05yXiIjW1Xcczszv3iVpezdZ7py9F-Wy26AKvPXWBGn7f81eeQlsfRCb1rWVpFCjFjHJXBem2gUiyjKc-tYkhVSrcsFIz7wq_zSOeGA04nvMMiUTn540b8Ji9wXNst_TbU16rnYNiPk8c1iXLp2Iduz16PlQjiGTZq0rhvtMJkEXAo2DZgPrZ-t81rYXMfeN7IZsJ4O702YkjZ-BHE5-dCEgCHY_8bznq74aTA7_kjb9IBjHp63qvG85j8NUrhujyl1hkuQDNA-TleHPwyT6uel64QN5rMdStVg4ftLS_mF1HaTEv4ul0aqNhKcR6N4puWGAw/
+[11:56:21.866][e4e31340] AJAX[NOTE]: Action: DoFolderInformation
+[11:56:21.866][e4e31340] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"6001","Action":"FolderInformation","XToken":"5995d46233c3bdf2ed812796aefec4fe"}
+[11:56:21.871][e4e31340] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[11:56:21.871][e4e31340] IMAP[NOTE]: Connected (success)
+[11:56:21.939][e4e31340] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[11:56:21.939][e4e31340] IMAP[SECURE]: > TAG1 LOGIN "support@steedos.com" "********"\r\n
+[11:56:22.029][b4c5f237] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[11:56:22.030][b4c5f237] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:56:22.030][b4c5f237] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 4204 UIDNEXT 6001 UNSEEN 37)\r\n
+[11:56:22.030][b4c5f237] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[11:56:22.031][b4c5f237] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"234af09393cc80023ca629a2be223aef","MessageCount":4204,"MessageUnseenCount":37,"UidNext":"6001","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":201}
+[11:56:22.031][b4c5f237] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[11:56:22.031][b4c5f237] IMAP[DATA]: < * BYE Logging out\r\n
+[11:56:22.031][b4c5f237] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[11:56:22.032][b4c5f237] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[11:56:22.032][b4c5f237] INFO[MEMORY]: Memory peak usage: 1.75MB
+[11:56:22.032][b4c5f237] INFO[TIME]: Time delta: 0.20224595069885
+[11:56:22.035][e4e31340] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[11:56:22.036][e4e31340] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[11:56:22.036][e4e31340] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 4204 UIDNEXT 6001 UNSEEN 37)\r\n
+[11:56:22.036][e4e31340] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[11:56:22.037][e4e31340] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"234af09393cc80023ca629a2be223aef","MessageCount":4204,"MessageUnseenCount":37,"UidNext":"6001","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":173}
+[11:56:22.037][e4e31340] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[11:56:22.037][e4e31340] IMAP[DATA]: < * BYE Logging out\r\n
+[11:56:22.037][e4e31340] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[11:56:22.037][e4e31340] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[11:56:22.037][e4e31340] INFO[MEMORY]: Memory peak usage: 1.75MB
+[11:56:22.037][e4e31340] INFO[TIME]: Time delta: 0.17364883422852
+
+[11:56:40.769][99a3f692] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:180.152.234.66][PID:5744][nginx/1.0.15][fpm-fcgi]
+[11:56:40.769][99a3f692] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:56:40.769][99a3f692] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_n5ktBkrYzjH05yXiIjW1Xcczszv3iVpezdZ7py9F-Wy26AKvPXWBGn7f81eeQlsfRCb1rWVpFCjFjHJXBem2gUiyjKc-tYkhVSrcsFIz7wq_zSOeGA04nvMMiUTn540b8Ji9wXNst_TbU16rnYNiPk8c1iXLp2Iduz16PlQjiGTZq0rhvtMJkEXAo2DZgPrZ-t81rYXMfeN7IZsJ4O702YkjZ-BHE5-dCEgCHY_8bznq74aTA7_kjb9IBjHp63qvG85j8NUrhujyl1hkuQDNA-TleHPwyT6uel64QN5rMdStVg4ftLS_mF1HaTEv4ul0aqNhKcR6N4puWGAw/
+[11:56:40.770][99a3f692] AJAX[NOTE]: Action: DoQuota
+[11:56:40.770][99a3f692] POST[DATA]: {"Action":"Quota","XToken":"5995d46233c3bdf2ed812796aefec4fe"}
+[11:56:40.772][99a3f692] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[11:56:40.772][99a3f692] IMAP[NOTE]: Connected (success)
+[11:56:40.777][99a3f692] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[11:56:40.777][99a3f692] IMAP[SECURE]: > TAG1 LOGIN "support@steedos.com" "********"\r\n
+[11:56:40.868][99a3f692] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[11:56:40.888][99a3f692] IMAP[DATA]: > TAG2 CAPABILITY\r\n
+[11:56:40.888][99a3f692] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[11:56:40.889][99a3f692] IMAP[DATA]: < TAG2 OK Capability completed.\r\n
+[11:56:40.889][99a3f692] AJAX[DATA]: {"Action":"Quota","Result":false,"Time":121}
+[11:56:40.889][99a3f692] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[11:56:40.890][99a3f692] IMAP[DATA]: < * BYE Logging out\r\n
+[11:56:40.890][99a3f692] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[11:56:40.890][99a3f692] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[11:56:40.890][99a3f692] INFO[MEMORY]: Memory peak usage: 1.75MB
+[11:56:40.890][99a3f692] INFO[TIME]: Time delta: 0.12240314483643
+
+[13:08:17.826][106416d3] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:18099][nginx/1.0.15][fpm-fcgi]
+[13:08:17.827][106416d3] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[13:08:17.827][106416d3] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[13:08:17.827][106416d3] AJAX[NOTE]: Action: DoVersion
+[13:08:17.827][106416d3] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[13:08:17.827][106416d3] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[13:08:17.828][106416d3] INFO[MEMORY]: Memory peak usage: 1.75MB
+[13:08:17.828][106416d3] INFO[TIME]: Time delta: 0.0029110908508301
+
+[13:52:13.887][b9042c26] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:61.240.144.65][PID:7521][nginx/1.0.15][fpm-fcgi]
+[13:52:13.887][b9042c26] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[13:52:13.887][b9042c26] REQUEST[NOTE]: [GET] http://_/
+[13:52:13.888][b9042c26] INFO[MEMORY]: Memory peak usage: 1.75MB
+[13:52:13.888][b9042c26] INFO[TIME]: Time delta: 0.0032131671905518
+
+[15:08:40.880][00284463] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:5748][nginx/1.0.15][fpm-fcgi]
+[15:08:40.880][00284463] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[15:08:40.880][00284463] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[15:08:40.880][00284463] AJAX[NOTE]: Action: DoVersion
+[15:08:40.881][00284463] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[15:08:40.881][00284463] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[15:08:40.881][00284463] INFO[MEMORY]: Memory peak usage: 1.75MB
+[15:08:40.881][00284463] INFO[TIME]: Time delta: 0.0027470588684082
+
+[16:09:00.571][754379db] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:18119][nginx/1.0.15][fpm-fcgi]
+[16:09:00.571][754379db] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[16:09:00.571][754379db] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[16:09:00.571][754379db] AJAX[NOTE]: Action: DoVersion
+[16:09:00.571][754379db] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[16:09:00.571][754379db] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[16:09:00.572][754379db] INFO[MEMORY]: Memory peak usage: 1.75MB
+[16:09:00.572][754379db] INFO[TIME]: Time delta: 0.0028071403503418
+
+[17:09:13.661][5a3084bc] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:14385][nginx/1.0.15][fpm-fcgi]
+[17:09:13.661][5a3084bc] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[17:09:13.661][5a3084bc] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[17:09:13.662][5a3084bc] AJAX[NOTE]: Action: DoVersion
+[17:09:13.662][5a3084bc] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[17:09:13.662][5a3084bc] AJAX[DATA]: {"Action":"Version","Result":true,"Time":18}
+[17:09:13.662][5a3084bc] INFO[MEMORY]: Memory peak usage: 1.75MB
+[17:09:13.662][5a3084bc] INFO[TIME]: Time delta: 0.002810001373291
+
+[17:32:57.217][ce08163b] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:59.108.122.184][PID:14393][nginx/1.0.15][fpm-fcgi]
+[17:32:57.217][ce08163b] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[17:32:57.218][ce08163b] REQUEST[NOTE]: [GET] http://www.example.com/
+[17:32:57.219][ce08163b] INFO[MEMORY]: Memory peak usage: 1.75MB
+[17:32:57.219][ce08163b] INFO[TIME]: Time delta: 0.0031230449676514
+
+[18:09:32.357][f3a83f11] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:7475][nginx/1.0.15][fpm-fcgi]
+[18:09:32.357][f3a83f11] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[18:09:32.357][f3a83f11] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[18:09:32.358][f3a83f11] AJAX[NOTE]: Action: DoVersion
+[18:09:32.358][f3a83f11] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[18:09:32.358][f3a83f11] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[18:09:32.358][f3a83f11] INFO[MEMORY]: Memory peak usage: 1.75MB
+[18:09:32.358][f3a83f11] INFO[TIME]: Time delta: 0.0027830600738525
+
+[18:48:58.223][d13bc322] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:117.136.66.53][PID:5744][nginx/1.0.15][fpm-fcgi]
+[18:48:58.223][d13bc322] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[18:48:58.223][d13bc322] REQUEST[NOTE]: [GET] https://mail.steedos.com/
+[18:48:58.224][d13bc322] INFO[MEMORY]: Memory peak usage: 1.75MB
+[18:48:58.224][d13bc322] INFO[TIME]: Time delta: 0.0032069683074951
+
+[18:49:00.225][205bbafa] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:117.136.66.53][PID:18099][nginx/1.0.15][fpm-fcgi]
+[18:49:00.225][205bbafa] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[18:49:00.225][205bbafa] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/AppData/0/781148141482845/
+[18:49:00.227][205bbafa] APPDATA[DATA]: window.rainloopAppData={"Version":"1.7.0.210","Auth":false,"AccountHash":"","StaticPrefix":"rainloop\/v\/1.7.0.210\/static\/","AccountSignMe":false,"AuthAccountHash":"","MailToEmail":"","Email":"","DevEmail":"","DevPassword":"","Title":"\u534e\u90ae","LoadingDescription":"\u65e0\u8bba\u6d77\u89d2\u5929\u8fb9\uff0c\u534e\u90ae\u603b\u5728\u4f60\u8eab\u8fb9","LoadingDescriptionEsc":"\u65e0\u8bba\u6d77\u89d2\u5929\u8fb9\uff0c\u534e\u90ae\u603b\u5728\u4f60\u8eab\u8fb9","LoginLogo":"https:\/\/blog.steedos.com\/content\/images\/2014\/12\/AppIcon60x60.png","LoginDescription":"\u534e\u90ae","LoginCss":"","LoginPowered":false,"Token":"532ee5c281e3cc4e265a082d3b6d4535","InIframe":false,"AllowAdminPanel":true,"AllowHtmlEditorSourceButton":false,"AllowHtmlEditorBitiButtons":false,"UseRsaEncryption":false,"RsaPublicKey":"","HideDangerousActions":false,"CustomLoginLink":"","CustomLogoutLink":"","LoginDefaultDomain":"steedos.com","DetermineUserLanguage":true,"DetermineUserDomain":true,"ForgotPasswordLinkUrl":"","RegistrationLinkUrl":"","ContactsIsAllowed":false,"ChangePasswordIsAllowed":false,"JsHash":"795c432bf076018970ce77b0d718805e","UseSieve":false,"UseImapThread":true,"UseImapSubscribe":true,"AllowAppendMessage":false,"MaterialDesign":true,"PremType":true,"Capa":["ADDITIONAL_ACCOUNTS","ADDITIONAL_IDENTITIES","GRAVATAR","PREFETCH","THEMES","USER_BACKGROUND","OPEN_PGP"],"Plugins":[],"AllowGoogleSocial":false,"AllowGoogleSocialAuth":false,"AllowGoogleSocialDrive":false,"AllowGoogleSocialPreview":false,"GoogleClientID":"","GoogleApiKey":"","AllowFacebookSocial":false,"AllowTwitterSocial":false,"AllowDropboxSocial":false,"DropboxApiKey":"","SupportedFacebookSocial":false,"FacebookAppID":"","FacebookAppSecret":"","ProjectHash":"4389235b71aebcb7a8c363c98eedc28e","Themes":["Default","A","Blurred","Linen","Love","Snow","Squares","SquaresDark","Stripes","Wood","Xv","Clear"],"Languages":["en","bg","de","es","fr","hu","is","it","ja-jp","ko-kr","lt","lv","nl","no","pl","pt-br","pt-pt","ro","ru","sk","sv","tr","ua","zh-cn","zh-tw"],"AllowLanguagesOnSettings":true,"AllowLanguagesOnLogin":true,"AttachmentLimit":52428800,"SignMe":"DefaultOff","UseLocalProxyForExternalImages":false,"EditorDefaultType":"Html","ShowImages":false,"ContactsAutosave":true,"MPP":20,"DesktopNotifications":false,"UseThreads":false,"ReplySameFolder":false,"Layout":1,"UseCheckboxesInList":true,"DefaultIdentityID":"","DisplayName":"","ReplyTo":"","Signature":"","SignatureToAll":false,"EnableTwoFactor":false,"ParentEmail":"","InterfaceAnimation":"Normal","UserBackgroundName":"","UserBackgroundHash":"","Theme":"Blurred","NewThemeLink":".\/?\/Css\/0\/User\/-\/Blurred\/-\/4389235b71aebcb7a8c363c98eedc28e\/Hash\/-\/","Language":"en","UserLanguage":true,"LangLink":".\/?\/Lang\/0\/en\/4389235b71aebcb7a8c363c98eedc28e\/","TemplatesLink":".\/?\/Templates\/0\/App\/4389235b71aebcb7a8c363c98eedc28e\/","PluginsLink":".\/?\/Plugins\/0\/User\/4389235b71aebcb7a8c363c98eedc28e\/"};if(window.__rlah_set){__rlah_set()};
+[18:49:00.227][205bbafa] INFO[MEMORY]: Memory peak usage: 1.75MB
+[18:49:00.227][205bbafa] INFO[TIME]: Time delta: 0.0033838748931885
+
+[18:49:00.581][ffa3802a] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:117.136.66.53][PID:6342][nginx/1.0.15][fpm-fcgi]
+[18:49:00.581][ffa3802a] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[18:49:00.581][ffa3802a] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/Css/0/User/-/Blurred/-/4389235b71aebcb7a8c363c98eedc28e/Hash/-/
+[18:49:00.591][ffa3802a] INFO[MEMORY]: Memory peak usage: 1.75MB
+[18:49:00.591][ffa3802a] INFO[TIME]: Time delta: 0.011920928955078
+
+[18:49:01.031][d3cef1f7] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:117.136.66.53][PID:18091][nginx/1.0.15][fpm-fcgi]
+[18:49:01.031][d3cef1f7] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[18:49:01.031][d3cef1f7] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/Templates/0/App/4389235b71aebcb7a8c363c98eedc28e/
+[18:49:01.040][d3cef1f7] INFO[MEMORY]: Memory peak usage: 1.75MB
+[18:49:01.040][d3cef1f7] INFO[TIME]: Time delta: 0.011356830596924
+
+[18:49:01.101][297d3ab0] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:117.136.66.53][PID:18089][nginx/1.0.15][fpm-fcgi]
+[18:49:01.101][297d3ab0] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[18:49:01.101][297d3ab0] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/Lang/0/en/4389235b71aebcb7a8c363c98eedc28e/
+
+[18:49:01.113][c95ff26e] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:117.136.66.53][PID:7521][nginx/1.0.15][fpm-fcgi]
+[18:49:01.113][c95ff26e] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[18:49:01.113][c95ff26e] REQUEST[NOTE]: [GET] https://mail.steedos.com/?/Plugins/0/User/4389235b71aebcb7a8c363c98eedc28e/
+[18:49:01.122][c95ff26e] INFO[MEMORY]: Memory peak usage: 1.75MB
+[18:49:01.122][c95ff26e] INFO[TIME]: Time delta: 0.010679006576538
+[18:49:01.123][297d3ab0] INFO[MEMORY]: Memory peak usage: 1.75MB
+[18:49:01.123][297d3ab0] INFO[TIME]: Time delta: 0.024794101715088
+
+[19:09:36.436][e50445d6] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:5748][nginx/1.0.15][fpm-fcgi]
+[19:09:36.436][e50445d6] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[19:09:36.436][e50445d6] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[19:09:36.436][e50445d6] AJAX[NOTE]: Action: DoVersion
+[19:09:36.436][e50445d6] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[19:09:36.436][e50445d6] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[19:09:36.437][e50445d6] INFO[MEMORY]: Memory peak usage: 1.75MB
+[19:09:36.437][e50445d6] INFO[TIME]: Time delta: 0.0027420520782471
+
+[20:07:41.097][bca8d0ba] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:52.5.141.7][PID:18119][nginx/1.0.15][fpm-fcgi]
+[20:07:41.097][bca8d0ba] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[20:07:41.097][bca8d0ba] REQUEST[NOTE]: [GET] http://182.92.230.126/
+[20:07:41.153][bca8d0ba] INFO[MEMORY]: Memory peak usage: 1.75MB
+[20:07:41.153][bca8d0ba] INFO[TIME]: Time delta: 0.16883397102356
+
+[20:09:55.855][c80b3b02] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:18115][nginx/1.0.15][fpm-fcgi]
+[20:09:55.855][c80b3b02] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[20:09:55.855][c80b3b02] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[20:09:55.856][c80b3b02] AJAX[NOTE]: Action: DoVersion
+[20:09:55.856][c80b3b02] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[20:09:55.856][c80b3b02] AJAX[DATA]: {"Action":"Version","Result":true,"Time":3}
+[20:09:55.857][c80b3b02] INFO[MEMORY]: Memory peak usage: 1.75MB
+[20:09:55.857][c80b3b02] INFO[TIME]: Time delta: 0.003587007522583
+
+[21:10:03.175][282f4d69] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:14393][nginx/1.0.15][fpm-fcgi]
+[21:10:03.175][282f4d69] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[21:10:03.175][282f4d69] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[21:10:03.176][282f4d69] AJAX[NOTE]: Action: DoVersion
+[21:10:03.176][282f4d69] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[21:10:03.176][282f4d69] AJAX[DATA]: {"Action":"Version","Result":true,"Time":3}
+[21:10:03.177][282f4d69] INFO[MEMORY]: Memory peak usage: 1.75MB
+[21:10:03.177][282f4d69] INFO[TIME]: Time delta: 0.0035018920898438
+
+[22:10:22.644][b5f7e46b] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:7475][nginx/1.0.15][fpm-fcgi]
+[22:10:22.644][b5f7e46b] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[22:10:22.644][b5f7e46b] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[22:10:22.644][b5f7e46b] AJAX[NOTE]: Action: DoVersion
+[22:10:22.645][b5f7e46b] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[22:10:22.645][b5f7e46b] AJAX[DATA]: {"Action":"Version","Result":true,"Time":36}
+[22:10:22.655][b5f7e46b] INFO[MEMORY]: Memory peak usage: 1.75MB
+[22:10:22.655][b5f7e46b] INFO[TIME]: Time delta: 0.042942047119141
+
+[23:10:43.269][4f198b51] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:114.95.158.243][PID:5750][nginx/1.0.15][fpm-fcgi]
+[23:10:43.269][4f198b51] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[23:10:43.269][4f198b51] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[23:10:43.270][4f198b51] AJAX[NOTE]: Action: DoVersion
+[23:10:43.270][4f198b51] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"40d5b9cd17a866560c8f8d3545d58f41"}
+[23:10:43.270][4f198b51] AJAX[DATA]: {"Action":"Version","Result":true,"Time":3}
+[23:10:43.270][4f198b51] INFO[MEMORY]: Memory peak usage: 1.75MB
+[23:10:43.271][4f198b51] INFO[TIME]: Time delta: 0.0036840438842773
+
+[23:52:52.740][749cf7fa] INFO[DATA]: [DATE:09.05.15][RL:1.7.0.210][PHP:5.3.3][IP:198.20.69.74][PID:5746][nginx/1.0.15][fpm-fcgi]
+[23:52:52.740][749cf7fa] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[23:52:52.740][749cf7fa] REQUEST[NOTE]: [GET] https://182.92.230.126/
+[23:52:52.782][749cf7fa] INFO[MEMORY]: Memory peak usage: 1.75MB
+[23:52:52.782][749cf7fa] INFO[TIME]: Time delta: 0.044488906860352

@@ -1,0 +1,1015 @@
+
+[01:28:00.770][b7e70727] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:222.69.234.81][PID:5747][nginx/1.0.15][fpm-fcgi]
+[01:28:00.770][b7e70727] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[01:28:00.770][b7e70727] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[01:28:00.770][b7e70727] AJAX[NOTE]: Action: DoFolderInformation
+[01:28:00.771][b7e70727] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[01:28:00.773][b7e70727] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[01:28:00.952][b7e70727] IMAP[NOTE]: Connected (success)
+[01:28:01.025][b7e70727] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[01:28:01.025][b7e70727] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[01:28:01.126][b7e70727] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[01:28:01.127][b7e70727] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[01:28:01.128][b7e70727] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[01:28:01.128][b7e70727] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[01:28:01.128][b7e70727] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":360}
+[01:28:01.128][b7e70727] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[01:28:01.129][b7e70727] IMAP[DATA]: < * BYE Logging out\r\n
+[01:28:01.129][b7e70727] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[01:28:01.129][b7e70727] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[01:28:01.129][b7e70727] INFO[MEMORY]: Memory peak usage: 1.75MB
+[01:28:01.129][b7e70727] INFO[TIME]: Time delta: 0.36082196235657
+
+[02:56:32.173][b3f1df12] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:222.69.234.81][PID:18089][nginx/1.0.15][fpm-fcgi]
+[02:56:32.174][b3f1df12] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[02:56:32.174][b3f1df12] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[02:56:32.174][b3f1df12] AJAX[NOTE]: Action: DoFolderInformationMultiply
+[02:56:32.174][b3f1df12] POST[DATA]: {"Folders":["Deleted Messages","Drafts","Notes","Sent","Archive"],"Action":"FolderInformationMultiply","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[02:56:32.176][b3f1df12] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[02:56:32.358][b3f1df12] IMAP[NOTE]: Connected (success)
+[02:56:32.380][b3f1df12] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[02:56:32.381][b3f1df12] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[02:56:32.476][b3f1df12] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[02:56:32.477][b3f1df12] IMAP[DATA]: > TAG2 STATUS "Deleted Messages" (MESSAGES UNSEEN UIDNEXT)\r\n
+[02:56:32.477][b3f1df12] IMAP[DATA]: < * STATUS "Deleted Messages" (MESSAGES 0 UIDNEXT 34 UNSEEN 0)\r\n
+[02:56:32.478][b3f1df12] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[02:56:32.478][b3f1df12] IMAP[DATA]: > TAG3 STATUS "Drafts" (MESSAGES UNSEEN UIDNEXT)\r\n
+[02:56:32.478][b3f1df12] IMAP[DATA]: < * STATUS "Drafts" (MESSAGES 4 UIDNEXT 17 UNSEEN 0)\r\n
+[02:56:32.478][b3f1df12] IMAP[DATA]: < TAG3 OK Status completed.\r\n
+[02:56:32.479][b3f1df12] IMAP[DATA]: > TAG4 STATUS "Notes" (MESSAGES UNSEEN UIDNEXT)\r\n
+[02:56:32.479][b3f1df12] IMAP[DATA]: < * STATUS "Notes" (MESSAGES 4 UIDNEXT 5 UNSEEN 0)\r\n
+[02:56:32.479][b3f1df12] IMAP[DATA]: < TAG4 OK Status completed.\r\n
+[02:56:32.479][b3f1df12] IMAP[DATA]: > TAG5 STATUS "Sent" (MESSAGES UNSEEN UIDNEXT)\r\n
+[02:56:32.480][b3f1df12] IMAP[DATA]: < * STATUS "Sent" (MESSAGES 1266 UIDNEXT 1280 UNSEEN 52)\r\n
+[02:56:32.480][b3f1df12] IMAP[DATA]: < TAG5 OK Status completed.\r\n
+[02:56:32.480][b3f1df12] IMAP[DATA]: > TAG6 STATUS "Archive" (MESSAGES UNSEEN UIDNEXT)\r\n
+[02:56:32.480][b3f1df12] IMAP[DATA]: < * STATUS "Archive" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[02:56:32.480][b3f1df12] IMAP[DATA]: < TAG6 OK Status completed.\r\n
+[02:56:32.481][b3f1df12] AJAX[DATA]: {"Action":"FolderInformationMultiply","Result":{"List":[{"Folder":"Deleted Messages","Hash":"8cf3366b71f18889d5c5981e911a0c5b","MessageCount":0,"MessageUnseenCount":0,"UidNext":"34","Flags":[],"NewMessages":[]},{"Folder":"Drafts","Hash":"36d8ac97157787f12bd22dce906f53a4","MessageCount":4,"MessageUns...
+[02:56:32.481][b3f1df12] IMAP[DATA]: > TAG7 LOGOUT\r\n
+[02:56:32.481][b3f1df12] IMAP[DATA]: < * BYE Logging out\r\n
+[02:56:32.481][b3f1df12] IMAP[DATA]: < TAG7 OK Logout completed.\r\n
+[02:56:32.481][b3f1df12] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[02:56:32.482][b3f1df12] INFO[MEMORY]: Memory peak usage: 1.75MB
+[02:56:32.482][b3f1df12] INFO[TIME]: Time delta: 0.30979990959167
+
+[04:10:10.736][d6317e94] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:222.69.234.81][PID:14393][nginx/1.0.15][fpm-fcgi]
+[04:10:10.736][d6317e94] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[04:10:10.736][d6317e94] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[04:10:10.736][d6317e94] AJAX[NOTE]: Action: DoFolderInformation
+[04:10:10.736][d6317e94] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[04:10:10.738][d6317e94] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[04:10:10.866][d6317e94] IMAP[NOTE]: Connected (success)
+[04:10:10.892][d6317e94] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[04:10:10.893][d6317e94] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[04:10:10.985][d6317e94] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[04:10:10.986][d6317e94] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[04:10:10.987][d6317e94] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[04:10:10.987][d6317e94] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[04:10:10.987][d6317e94] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":253}
+[04:10:10.987][d6317e94] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[04:10:10.987][d6317e94] IMAP[DATA]: < * BYE Logging out\r\n
+[04:10:10.988][d6317e94] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[04:10:10.988][d6317e94] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[04:10:10.988][d6317e94] INFO[MEMORY]: Memory peak usage: 1.75MB
+[04:10:10.988][d6317e94] INFO[TIME]: Time delta: 0.25397896766663
+
+[05:10:58.677][6a1020d7] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:222.69.234.81][PID:6342][nginx/1.0.15][fpm-fcgi]
+[05:10:58.677][6a1020d7] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[05:10:58.678][6a1020d7] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[05:10:58.678][6a1020d7] AJAX[NOTE]: Action: DoFolders
+[05:10:58.678][6a1020d7] POST[DATA]: {"SentFolder":"Sent","DraftFolder":"Drafts","SpamFolder":"Junk","TrashFolder":"Trash","ArchiveFolder":"Archive","Action":"Folders","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[05:10:58.680][6a1020d7] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[05:10:59.136][6a1020d7] IMAP[NOTE]: Connected (success)
+[05:10:59.162][6a1020d7] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[05:10:59.163][6a1020d7] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[05:10:59.255][6a1020d7] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[05:10:59.256][6a1020d7] IMAP[DATA]: > TAG2 LIST "" "*"\r\n
+[05:10:59.256][6a1020d7] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Archive"\r\n
+[05:10:59.256][6a1020d7] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Trash"\r\n
+[05:10:59.256][6a1020d7] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Sent"\r\n
+[05:10:59.257][6a1020d7] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Sent Messages"\r\n
+[05:10:59.257][6a1020d7] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Junk"\r\n
+[05:10:59.257][6a1020d7] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Deleted Messages"\r\n
+[05:10:59.257][6a1020d7] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&mo+abE6RW6JnDXaE- &W6JiNw-"\r\n
+[05:10:59.257][6a1020d7] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Drafts"\r\n
+[05:10:59.257][6a1020d7] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Notes"\r\n
+[05:10:59.258][6a1020d7] IMAP[DATA]: < * LIST (\HasNoChildren) "." "INBOX"\r\n
+[05:10:59.258][6a1020d7] IMAP[DATA]: < TAG2 OK List completed.\r\n
+[05:10:59.258][6a1020d7] IMAP[DATA]: > TAG3 LSUB "" "*"\r\n
+[05:10:59.258][6a1020d7] IMAP[DATA]: < * LSUB () "." "Trash"\r\n
+[05:10:59.258][6a1020d7] IMAP[DATA]: < * LSUB () "." "Sent"\r\n
+[05:10:59.259][6a1020d7] IMAP[DATA]: < * LSUB () "." "Archive"\r\n
+[05:10:59.259][6a1020d7] IMAP[DATA]: < * LSUB () "." "Drafts"\r\n
+[05:10:59.259][6a1020d7] IMAP[DATA]: < * LSUB () "." "INBOX"\r\n
+[05:10:59.259][6a1020d7] IMAP[DATA]: < * LSUB () "." "Notes"\r\n
+[05:10:59.259][6a1020d7] IMAP[DATA]: < * LSUB () "." "Deleted Messages"\r\n
+[05:10:59.259][6a1020d7] IMAP[DATA]: < * LSUB () "." "Sent Messages"\r\n
+[05:10:59.259][6a1020d7] IMAP[DATA]: < TAG3 OK Lsub completed.\r\n
+[05:10:59.276][6a1020d7] IMAP[DATA]: > TAG4 CAPABILITY\r\n
+[05:10:59.276][6a1020d7] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[05:10:59.276][6a1020d7] IMAP[DATA]: < TAG4 OK Capability completed.\r\n
+[05:10:59.277][6a1020d7] IMAP[DATA]: > TAG5 NAMESPACE\r\n
+[05:10:59.277][6a1020d7] IMAP[DATA]: < * NAMESPACE (("" ".")) NIL NIL\r\n
+[05:10:59.277][6a1020d7] IMAP[DATA]: < TAG5 OK Namespace completed.\r\n
+[05:10:59.279][6a1020d7] AJAX[DATA]: {"Action":"Folders","Result":{"@Object":"Collection\/FolderCollection","@Count":10,"@Collection":[{"@Object":"Object\/Folder","Name":"INBOX","FullName":"INBOX","FullNameRaw":"INBOX","FullNameHash":"INBOX","Delimiter":".","HasVisibleSubFolders":false,"IsSubscribed":true,"IsExists":true,"IsSelectable"...
+[05:10:59.280][6a1020d7] IMAP[DATA]: > TAG6 LOGOUT\r\n
+[05:10:59.280][6a1020d7] IMAP[DATA]: < * BYE Logging out\r\n
+[05:10:59.280][6a1020d7] IMAP[DATA]: < TAG6 OK Logout completed.\r\n
+[05:10:59.280][6a1020d7] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[05:10:59.280][6a1020d7] INFO[MEMORY]: Memory peak usage: 2MB
+[05:10:59.280][6a1020d7] INFO[TIME]: Time delta: 0.6044819355011
+
+[05:11:09.667][53dced2e] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:222.69.234.81][PID:7475][nginx/1.0.15][fpm-fcgi]
+[05:11:09.667][53dced2e] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[05:11:09.667][53dced2e] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[05:11:09.668][53dced2e] AJAX[NOTE]: Action: DoQuota
+[05:11:09.668][53dced2e] POST[DATA]: {"Action":"Quota","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[05:11:09.670][53dced2e] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[05:11:09.670][53dced2e] IMAP[NOTE]: Connected (success)
+[05:11:09.675][53dced2e] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[05:11:09.675][53dced2e] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[05:11:09.763][53dced2e] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[05:11:09.764][53dced2e] IMAP[DATA]: > TAG2 CAPABILITY\r\n
+[05:11:09.764][53dced2e] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[05:11:09.765][53dced2e] IMAP[DATA]: < TAG2 OK Capability completed.\r\n
+[05:11:09.765][53dced2e] AJAX[DATA]: {"Action":"Quota","Result":false,"Time":99}
+[05:11:09.765][53dced2e] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[05:11:09.765][53dced2e] IMAP[DATA]: < * BYE Logging out\r\n
+[05:11:09.765][53dced2e] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[05:11:09.765][53dced2e] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[05:11:09.765][53dced2e] INFO[MEMORY]: Memory peak usage: 1.75MB
+[05:11:09.766][53dced2e] INFO[TIME]: Time delta: 0.10024499893188
+
+[06:11:58.343][735d4ee8] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18108][nginx/1.0.15][fpm-fcgi]
+[06:11:58.344][735d4ee8] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[06:11:58.344][735d4ee8] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[06:11:58.344][735d4ee8] AJAX[NOTE]: Action: DoFolderInformation
+[06:11:58.344][735d4ee8] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[06:11:58.346][735d4ee8] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[06:11:58.432][735d4ee8] IMAP[NOTE]: Connected (success)
+[06:11:58.460][735d4ee8] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[06:11:58.460][735d4ee8] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[06:11:58.553][735d4ee8] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[06:11:58.554][735d4ee8] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[06:11:58.555][735d4ee8] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[06:11:58.555][735d4ee8] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[06:11:58.556][735d4ee8] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":214}
+[06:11:58.556][735d4ee8] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[06:11:58.556][735d4ee8] IMAP[DATA]: < * BYE Logging out\r\n
+[06:11:58.556][735d4ee8] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[06:11:58.556][735d4ee8] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[06:11:58.556][735d4ee8] INFO[MEMORY]: Memory peak usage: 1.75MB
+[06:11:58.556][735d4ee8] INFO[TIME]: Time delta: 0.21455502510071
+
+[07:12:24.492][4f65c35b] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5750][nginx/1.0.15][fpm-fcgi]
+[07:12:24.492][4f65c35b] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:12:24.492][4f65c35b] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:12:24.492][4f65c35b] AJAX[NOTE]: Action: DoFolderInformationMultiply
+[07:12:24.492][4f65c35b] POST[DATA]: {"Folders":["Junk","Sent Messages","Trash","&mo+abE6RW6JnDXaE- &W6JiNw-","Archive"],"Action":"FolderInformationMultiply","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:12:24.494][4f65c35b] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:12:24.672][4f65c35b] IMAP[NOTE]: Connected (success)
+[07:12:24.677][4f65c35b] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:12:24.677][4f65c35b] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:12:24.766][4f65c35b] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:12:24.767][4f65c35b] IMAP[DATA]: > TAG2 STATUS "Junk" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:12:24.810][4f65c35b] IMAP[DATA]: < * STATUS "Junk" (MESSAGES 64 UIDNEXT 78 UNSEEN 45)\r\n
+[07:12:24.811][4f65c35b] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:12:24.811][4f65c35b] IMAP[DATA]: > TAG3 STATUS "Sent Messages" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:12:24.811][4f65c35b] IMAP[DATA]: < * STATUS "Sent Messages" (MESSAGES 7 UIDNEXT 8 UNSEEN 0)\r\n
+[07:12:24.811][4f65c35b] IMAP[DATA]: < TAG3 OK Status completed.\r\n
+[07:12:24.812][4f65c35b] IMAP[DATA]: > TAG4 STATUS "Trash" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:12:24.865][4f65c35b] IMAP[DATA]: < * STATUS "Trash" (MESSAGES 17 UIDNEXT 70 UNSEEN 0)\r\n
+[07:12:24.865][4f65c35b] IMAP[DATA]: < TAG4 OK Status completed.\r\n
+[07:12:24.865][4f65c35b] IMAP[DATA]: > TAG5 STATUS "&mo+abE6RW6JnDXaE- &W6JiNw-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:12:24.882][4f65c35b] IMAP[DATA]: < * STATUS "&mo+abE6RW6JnDXaE- &W6JiNw-" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[07:12:24.882][4f65c35b] IMAP[DATA]: < TAG5 OK Status completed.\r\n
+[07:12:24.882][4f65c35b] IMAP[DATA]: > TAG6 STATUS "Archive" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:12:24.882][4f65c35b] IMAP[DATA]: < * STATUS "Archive" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[07:12:24.883][4f65c35b] IMAP[DATA]: < TAG6 OK Status completed.\r\n
+[07:12:24.883][4f65c35b] AJAX[DATA]: {"Action":"FolderInformationMultiply","Result":{"List":[{"Folder":"Junk","Hash":"c08ad9ac8f321b8c3db44e8de023e7e5","MessageCount":64,"MessageUnseenCount":45,"UidNext":"78","Flags":[],"NewMessages":[]},{"Folder":"Sent Messages","Hash":"79525d2536727dd72b424495b02a026f","MessageCount":7,"MessageUnseen...
+[07:12:24.883][4f65c35b] IMAP[DATA]: > TAG7 LOGOUT\r\n
+[07:12:24.883][4f65c35b] IMAP[DATA]: < * BYE Logging out\r\n
+[07:12:24.883][4f65c35b] IMAP[DATA]: < TAG7 OK Logout completed.\r\n
+[07:12:24.884][4f65c35b] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:12:24.884][4f65c35b] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:12:24.884][4f65c35b] INFO[TIME]: Time delta: 0.39362406730652
+
+[07:35:06.033][02665f5c] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5744][nginx/1.0.15][fpm-fcgi]
+[07:35:06.033][02665f5c] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:35:06.033][02665f5c] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:35:06.033][02665f5c] AJAX[NOTE]: Action: DoFolderInformation
+[07:35:06.034][02665f5c] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:35:06.035][02665f5c] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:35:06.036][02665f5c] IMAP[NOTE]: Connected (success)
+[07:35:06.062][02665f5c] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:35:06.063][02665f5c] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:35:06.155][02665f5c] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:35:06.156][02665f5c] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:35:06.156][02665f5c] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[07:35:06.157][02665f5c] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:35:06.157][02665f5c] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":126}
+[07:35:06.157][02665f5c] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:35:06.157][02665f5c] IMAP[DATA]: < * BYE Logging out\r\n
+[07:35:06.157][02665f5c] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:35:06.158][02665f5c] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:35:06.158][02665f5c] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:35:06.158][02665f5c] INFO[TIME]: Time delta: 0.12638187408447
+
+[07:41:14.549][12f6ce0b] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18115][nginx/1.0.15][fpm-fcgi]
+[07:41:14.549][12f6ce0b] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:41:14.549][12f6ce0b] REQUEST[NOTE]: [GET] http://mail.steedos.com/
+[07:41:14.551][12f6ce0b] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:41:14.551][12f6ce0b] INFO[TIME]: Time delta: 0.0030910968780518
+
+[07:41:16.614][177f0603] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18091][nginx/1.0.15][fpm-fcgi]
+[07:41:16.615][177f0603] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:41:16.615][177f0603] REQUEST[NOTE]: [GET] http://mail.steedos.com/?/AppData/0/1568444229196757/
+[07:41:16.764][177f0603] APPDATA[DATA]: window.rainloopAppData={"Version":"1.7.0.210","Auth":false,"AccountHash":"","StaticPrefix":"rainloop\/v\/1.7.0.210\/static\/","AccountSignMe":false,"AuthAccountHash":"","MailToEmail":"","Email":"","DevEmail":"","DevPassword":"","Title":"\u534e\u90ae","LoadingDescription":"\u65e0\u8bba\u6d77\u89d2\u5929\u8fb9\uff0c\u534e\u90ae\u603b\u5728\u4f60\u8eab\u8fb9","LoadingDescriptionEsc":"\u65e0\u8bba\u6d77\u89d2\u5929\u8fb9\uff0c\u534e\u90ae\u603b\u5728\u4f60\u8eab\u8fb9","LoginLogo":"https:\/\/blog.steedos.com\/content\/images\/2014\/12\/AppIcon60x60.png","LoginDescription":"\u534e\u90ae","LoginCss":"","LoginPowered":false,"Token":"1ee139cf6cbc32a282a061fdfda48637","InIframe":false,"AllowAdminPanel":true,"AllowHtmlEditorSourceButton":false,"AllowHtmlEditorBitiButtons":false,"UseRsaEncryption":false,"RsaPublicKey":"","HideDangerousActions":false,"CustomLoginLink":"","CustomLogoutLink":"","LoginDefaultDomain":"steedos.com","DetermineUserLanguage":true,"DetermineUserDomain":true,"ForgotPasswordLinkUrl":"","RegistrationLinkUrl":"","ContactsIsAllowed":false,"ChangePasswordIsAllowed":false,"JsHash":"c65b45db09c97495d89482eef3e906bb","UseSieve":false,"UseImapThread":true,"UseImapSubscribe":true,"AllowAppendMessage":false,"MaterialDesign":true,"PremType":true,"Capa":["ADDITIONAL_ACCOUNTS","ADDITIONAL_IDENTITIES","GRAVATAR","PREFETCH","THEMES","USER_BACKGROUND","OPEN_PGP"],"Plugins":[],"AllowGoogleSocial":false,"AllowGoogleSocialAuth":false,"AllowGoogleSocialDrive":false,"AllowGoogleSocialPreview":false,"GoogleClientID":"","GoogleApiKey":"","AllowFacebookSocial":false,"AllowTwitterSocial":false,"AllowDropboxSocial":false,"DropboxApiKey":"","SupportedFacebookSocial":false,"FacebookAppID":"","FacebookAppSecret":"","ProjectHash":"4389235b71aebcb7a8c363c98eedc28e","Themes":["Default","A","Blurred","Linen","Love","Snow","Squares","SquaresDark","Stripes","Wood","Xv","Clear"],"Languages":["en","bg","de","es","fr","hu","is","it","ja-jp","ko-kr","lt","lv","nl","no","pl","pt-br","pt-pt","ro","ru","sk","sv","tr","ua","zh-cn","zh-tw"],"AllowLanguagesOnSettings":true,"AllowLanguagesOnLogin":true,"AttachmentLimit":52428800,"SignMe":"DefaultOff","UseLocalProxyForExternalImages":false,"EditorDefaultType":"Html","ShowImages":false,"ContactsAutosave":true,"MPP":20,"DesktopNotifications":false,"UseThreads":false,"ReplySameFolder":false,"Layout":1,"UseCheckboxesInList":true,"DefaultIdentityID":"","DisplayName":"","ReplyTo":"","Signature":"","SignatureToAll":false,"EnableTwoFactor":false,"ParentEmail":"","InterfaceAnimation":"Normal","UserBackgroundName":"","UserBackgroundHash":"","Theme":"Blurred","NewThemeLink":".\/?\/Css\/0\/User\/-\/Blurred\/-\/4389235b71aebcb7a8c363c98eedc28e\/Hash\/-\/","Language":"en","UserLanguage":false,"LangLink":".\/?\/Lang\/0\/en\/4389235b71aebcb7a8c363c98eedc28e\/","TemplatesLink":".\/?\/Templates\/0\/App\/4389235b71aebcb7a8c363c98eedc28e\/","PluginsLink":".\/?\/Plugins\/0\/User\/4389235b71aebcb7a8c363c98eedc28e\/"};if(window.__rlah_set){__rlah_set()};
+[07:41:16.765][177f0603] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:41:16.765][177f0603] INFO[TIME]: Time delta: 0.15201902389526
+
+[07:41:16.855][d69f9cee] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5747][nginx/1.0.15][fpm-fcgi]
+[07:41:16.855][d69f9cee] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:41:16.855][d69f9cee] REQUEST[NOTE]: [GET] http://mail.steedos.com/?/Css/0/User/-/Blurred/-/4389235b71aebcb7a8c363c98eedc28e/Hash/-/
+[07:41:17.006][d69f9cee] INFO[MEMORY]: Memory peak usage: 2.5MB
+[07:41:17.006][d69f9cee] INFO[TIME]: Time delta: 0.15272116661072
+
+[07:41:17.686][5eb7bd98] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18089][nginx/1.0.15][fpm-fcgi]
+[07:41:17.686][5eb7bd98] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:41:17.686][5eb7bd98] REQUEST[NOTE]: [GET] http://mail.steedos.com/?/Templates/0/App/4389235b71aebcb7a8c363c98eedc28e/
+
+[07:41:17.691][c4ecb221] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18119][nginx/1.0.15][fpm-fcgi]
+[07:41:17.691][c4ecb221] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:41:17.691][c4ecb221] REQUEST[NOTE]: [GET] http://mail.steedos.com/?/Plugins/0/User/4389235b71aebcb7a8c363c98eedc28e/
+
+[07:41:17.708][b9b02718] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:14385][nginx/1.0.15][fpm-fcgi]
+[07:41:17.709][b9b02718] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:41:17.709][b9b02718] REQUEST[NOTE]: [GET] http://mail.steedos.com/?/Lang/0/en/4389235b71aebcb7a8c363c98eedc28e/
+[07:41:17.760][c4ecb221] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:41:17.760][c4ecb221] INFO[TIME]: Time delta: 0.07089900970459
+[07:41:17.764][b9b02718] INFO[MEMORY]: Memory peak usage: 2MB
+[07:41:17.764][b9b02718] INFO[TIME]: Time delta: 0.057392120361328
+[07:41:17.824][5eb7bd98] INFO[MEMORY]: Memory peak usage: 2.25MB
+[07:41:17.824][5eb7bd98] INFO[TIME]: Time delta: 0.13952398300171
+
+[07:41:22.794][9324772d] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:14393][nginx/1.0.15][fpm-fcgi]
+[07:41:22.794][9324772d] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:41:22.794][9324772d] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:41:22.795][9324772d] AJAX[NOTE]: Action: DoFolderInformationMultiply
+[07:41:22.795][9324772d] POST[DATA]: {"Folders":["Deleted Messages","Drafts","Notes","Sent","Archive"],"Action":"FolderInformationMultiply","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:41:22.797][9324772d] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:41:22.797][9324772d] IMAP[NOTE]: Connected (success)
+[07:41:22.819][9324772d] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:41:22.820][9324772d] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:41:22.913][9324772d] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:41:22.913][9324772d] IMAP[DATA]: > TAG2 STATUS "Deleted Messages" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:41:22.914][9324772d] IMAP[DATA]: < * STATUS "Deleted Messages" (MESSAGES 0 UIDNEXT 34 UNSEEN 0)\r\n
+[07:41:22.914][9324772d] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:41:22.914][9324772d] IMAP[DATA]: > TAG3 STATUS "Drafts" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:41:22.915][9324772d] IMAP[DATA]: < * STATUS "Drafts" (MESSAGES 4 UIDNEXT 17 UNSEEN 0)\r\n
+[07:41:22.915][9324772d] IMAP[DATA]: < TAG3 OK Status completed.\r\n
+[07:41:22.915][9324772d] IMAP[DATA]: > TAG4 STATUS "Notes" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:41:22.915][9324772d] IMAP[DATA]: < * STATUS "Notes" (MESSAGES 4 UIDNEXT 5 UNSEEN 0)\r\n
+[07:41:22.916][9324772d] IMAP[DATA]: < TAG4 OK Status completed.\r\n
+[07:41:22.916][9324772d] IMAP[DATA]: > TAG5 STATUS "Sent" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:41:22.916][9324772d] IMAP[DATA]: < * STATUS "Sent" (MESSAGES 1266 UIDNEXT 1280 UNSEEN 52)\r\n
+[07:41:22.916][9324772d] IMAP[DATA]: < TAG5 OK Status completed.\r\n
+[07:41:22.917][9324772d] IMAP[DATA]: > TAG6 STATUS "Archive" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:41:22.917][9324772d] IMAP[DATA]: < * STATUS "Archive" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[07:41:22.917][9324772d] IMAP[DATA]: < TAG6 OK Status completed.\r\n
+[07:41:22.917][9324772d] AJAX[DATA]: {"Action":"FolderInformationMultiply","Result":{"List":[{"Folder":"Deleted Messages","Hash":"8cf3366b71f18889d5c5981e911a0c5b","MessageCount":0,"MessageUnseenCount":0,"UidNext":"34","Flags":[],"NewMessages":[]},{"Folder":"Drafts","Hash":"36d8ac97157787f12bd22dce906f53a4","MessageCount":4,"MessageUns...
+[07:41:22.917][9324772d] IMAP[DATA]: > TAG7 LOGOUT\r\n
+[07:41:22.918][9324772d] IMAP[DATA]: < * BYE Logging out\r\n
+[07:41:22.918][9324772d] IMAP[DATA]: < TAG7 OK Logout completed.\r\n
+[07:41:22.918][9324772d] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:41:22.918][9324772d] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:41:22.918][9324772d] INFO[TIME]: Time delta: 0.12561893463135
+
+[07:41:48.984][cb3a8427] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:6342][nginx/1.0.15][fpm-fcgi]
+[07:41:48.984][cb3a8427] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:41:48.984][cb3a8427] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:41:48.984][cb3a8427] AJAX[NOTE]: Action: DoFolderInformation
+[07:41:48.984][cb3a8427] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:41:48.986][cb3a8427] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:41:48.987][cb3a8427] IMAP[NOTE]: Connected (success)
+[07:41:48.991][cb3a8427] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:41:48.992][cb3a8427] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:41:49.083][cb3a8427] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:41:49.083][cb3a8427] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:41:49.084][cb3a8427] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[07:41:49.085][cb3a8427] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:41:49.085][cb3a8427] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":103}
+[07:41:49.085][cb3a8427] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:41:49.085][cb3a8427] IMAP[DATA]: < * BYE Logging out\r\n
+[07:41:49.085][cb3a8427] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:41:49.085][cb3a8427] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:41:49.086][cb3a8427] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:41:49.086][cb3a8427] INFO[TIME]: Time delta: 0.10342812538147
+
+[07:41:54.547][ad6faa31] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:7475][nginx/1.0.15][fpm-fcgi]
+[07:41:54.547][ad6faa31] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:41:54.547][ad6faa31] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:41:54.548][ad6faa31] AJAX[NOTE]: Action: DoQuota
+[07:41:54.548][ad6faa31] POST[DATA]: {"Action":"Quota","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:41:54.550][ad6faa31] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:41:54.550][ad6faa31] IMAP[NOTE]: Connected (success)
+[07:41:54.555][ad6faa31] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:41:54.555][ad6faa31] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:41:54.648][ad6faa31] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:41:54.649][ad6faa31] IMAP[DATA]: > TAG2 CAPABILITY\r\n
+[07:41:54.649][ad6faa31] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[07:41:54.649][ad6faa31] IMAP[DATA]: < TAG2 OK Capability completed.\r\n
+[07:41:54.650][ad6faa31] AJAX[DATA]: {"Action":"Quota","Result":false,"Time":104}
+[07:41:54.650][ad6faa31] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:41:54.650][ad6faa31] IMAP[DATA]: < * BYE Logging out\r\n
+[07:41:54.650][ad6faa31] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:41:54.650][ad6faa31] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:41:54.650][ad6faa31] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:41:54.650][ad6faa31] INFO[TIME]: Time delta: 0.10486197471619
+
+[07:43:49.768][89579828] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5748][nginx/1.0.15][fpm-fcgi]
+[07:43:49.768][89579828] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:43:49.768][89579828] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:43:49.768][89579828] AJAX[NOTE]: Action: DoFolderInformation
+[07:43:49.769][89579828] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:43:49.771][89579828] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:43:49.771][89579828] IMAP[NOTE]: Connected (success)
+[07:43:49.793][89579828] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:43:49.794][89579828] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:43:49.891][89579828] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:43:49.891][89579828] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:43:49.892][89579828] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[07:43:49.892][89579828] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:43:49.893][89579828] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":126}
+[07:43:49.893][89579828] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:43:49.893][89579828] IMAP[DATA]: < * BYE Logging out\r\n
+[07:43:49.893][89579828] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:43:49.893][89579828] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:43:49.893][89579828] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:43:49.893][89579828] INFO[TIME]: Time delta: 0.12737011909485
+
+[07:44:20.638][3388e4fd] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5746][nginx/1.0.15][fpm-fcgi]
+[07:44:20.638][3388e4fd] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:44:20.638][3388e4fd] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:44:20.639][3388e4fd] AJAX[NOTE]: Action: DoFolderInformationMultiply
+[07:44:20.639][3388e4fd] POST[DATA]: {"Folders":["Junk","Sent Messages","Trash","&mo+abE6RW6JnDXaE- &W6JiNw-"],"Action":"FolderInformationMultiply","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:44:20.641][3388e4fd] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:44:20.910][3388e4fd] IMAP[NOTE]: Connected (success)
+[07:44:20.915][3388e4fd] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:44:20.915][3388e4fd] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:44:21.005][3388e4fd] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:44:21.005][3388e4fd] IMAP[DATA]: > TAG2 STATUS "Junk" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:44:21.006][3388e4fd] IMAP[DATA]: < * STATUS "Junk" (MESSAGES 64 UIDNEXT 78 UNSEEN 45)\r\n
+[07:44:21.006][3388e4fd] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:44:21.006][3388e4fd] IMAP[DATA]: > TAG3 STATUS "Sent Messages" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:44:21.006][3388e4fd] IMAP[DATA]: < * STATUS "Sent Messages" (MESSAGES 7 UIDNEXT 8 UNSEEN 0)\r\n
+[07:44:21.007][3388e4fd] IMAP[DATA]: < TAG3 OK Status completed.\r\n
+[07:44:21.007][3388e4fd] IMAP[DATA]: > TAG4 STATUS "Trash" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:44:21.007][3388e4fd] IMAP[DATA]: < * STATUS "Trash" (MESSAGES 17 UIDNEXT 70 UNSEEN 0)\r\n
+[07:44:21.007][3388e4fd] IMAP[DATA]: < TAG4 OK Status completed.\r\n
+[07:44:21.008][3388e4fd] IMAP[DATA]: > TAG5 STATUS "&mo+abE6RW6JnDXaE- &W6JiNw-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:44:21.008][3388e4fd] IMAP[DATA]: < * STATUS "&mo+abE6RW6JnDXaE- &W6JiNw-" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[07:44:21.008][3388e4fd] IMAP[DATA]: < TAG5 OK Status completed.\r\n
+[07:44:21.008][3388e4fd] AJAX[DATA]: {"Action":"FolderInformationMultiply","Result":{"List":[{"Folder":"Junk","Hash":"c08ad9ac8f321b8c3db44e8de023e7e5","MessageCount":64,"MessageUnseenCount":45,"UidNext":"78","Flags":[],"NewMessages":[]},{"Folder":"Sent Messages","Hash":"79525d2536727dd72b424495b02a026f","MessageCount":7,"MessageUnseen...
+[07:44:21.009][3388e4fd] IMAP[DATA]: > TAG6 LOGOUT\r\n
+[07:44:21.009][3388e4fd] IMAP[DATA]: < * BYE Logging out\r\n
+[07:44:21.009][3388e4fd] IMAP[DATA]: < TAG6 OK Logout completed.\r\n
+[07:44:21.009][3388e4fd] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:44:21.009][3388e4fd] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:44:21.009][3388e4fd] INFO[TIME]: Time delta: 0.37281203269958
+
+[07:45:52.074][ce82ac22] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:7521][nginx/1.0.15][fpm-fcgi]
+[07:45:52.074][ce82ac22] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:45:52.074][ce82ac22] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:45:52.074][ce82ac22] AJAX[NOTE]: Action: DoFolderInformation
+[07:45:52.074][ce82ac22] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:45:52.076][ce82ac22] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:45:52.077][ce82ac22] IMAP[NOTE]: Connected (success)
+[07:45:52.081][ce82ac22] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:45:52.082][ce82ac22] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:45:52.171][ce82ac22] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:45:52.172][ce82ac22] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:45:52.173][ce82ac22] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[07:45:52.173][ce82ac22] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:45:52.173][ce82ac22] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":101}
+[07:45:52.173][ce82ac22] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:45:52.174][ce82ac22] IMAP[DATA]: < * BYE Logging out\r\n
+[07:45:52.174][ce82ac22] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:45:52.174][ce82ac22] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:45:52.174][ce82ac22] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:45:52.174][ce82ac22] INFO[TIME]: Time delta: 0.10211396217346
+
+[07:46:40.465][6a347b6b] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18099][nginx/1.0.15][fpm-fcgi]
+[07:46:40.465][6a347b6b] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:46:40.465][6a347b6b] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/0/
+[07:46:40.466][6a347b6b] AJAX[NOTE]: Action: DoVersion
+[07:46:40.466][6a347b6b] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:46:40.466][6a347b6b] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[07:46:40.466][6a347b6b] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:46:40.466][6a347b6b] INFO[TIME]: Time delta: 0.0029439926147461
+
+[07:46:40.510][eb433bf3] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18108][nginx/1.0.15][fpm-fcgi]
+[07:46:40.510][eb433bf3] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:46:40.511][eb433bf3] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:46:40.511][eb433bf3] AJAX[NOTE]: Action: DoVersion
+[07:46:40.511][eb433bf3] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:46:40.511][eb433bf3] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[07:46:40.511][eb433bf3] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:46:40.511][eb433bf3] INFO[TIME]: Time delta: 0.0023469924926758
+
+[07:46:42.458][abce446b] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5750][nginx/1.0.15][fpm-fcgi]
+[07:46:42.458][abce446b] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:46:42.458][abce446b] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/0/
+[07:46:42.458][abce446b] AJAX[NOTE]: Action: DoVersion
+[07:46:42.458][abce446b] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:46:42.458][abce446b] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[07:46:42.459][abce446b] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:46:42.459][abce446b] INFO[TIME]: Time delta: 0.0027148723602295
+
+[07:46:42.531][c7f8efe0] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5744][nginx/1.0.15][fpm-fcgi]
+[07:46:42.531][c7f8efe0] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:46:42.531][c7f8efe0] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:46:42.532][c7f8efe0] AJAX[NOTE]: Action: DoFolders
+[07:46:42.532][c7f8efe0] POST[DATA]: {"SentFolder":"Sent","DraftFolder":"Drafts","SpamFolder":"Junk","TrashFolder":"Trash","ArchiveFolder":"Archive","Action":"Folders","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:46:42.534][c7f8efe0] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:46:42.534][c7f8efe0] IMAP[NOTE]: Connected (success)
+[07:46:42.539][c7f8efe0] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:46:42.539][c7f8efe0] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:46:42.628][c7f8efe0] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:46:42.628][c7f8efe0] IMAP[DATA]: > TAG2 LIST "" "*"\r\n
+[07:46:42.629][c7f8efe0] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Archive"\r\n
+[07:46:42.629][c7f8efe0] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Trash"\r\n
+[07:46:42.629][c7f8efe0] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Sent"\r\n
+[07:46:42.629][c7f8efe0] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Sent Messages"\r\n
+[07:46:42.629][c7f8efe0] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Junk"\r\n
+[07:46:42.629][c7f8efe0] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Deleted Messages"\r\n
+[07:46:42.630][c7f8efe0] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&mo+abE6RW6JnDXaE- &W6JiNw-"\r\n
+[07:46:42.630][c7f8efe0] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Drafts"\r\n
+[07:46:42.630][c7f8efe0] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Notes"\r\n
+[07:46:42.630][c7f8efe0] IMAP[DATA]: < * LIST (\HasNoChildren) "." "INBOX"\r\n
+[07:46:42.630][c7f8efe0] IMAP[DATA]: < TAG2 OK List completed.\r\n
+[07:46:42.631][c7f8efe0] IMAP[DATA]: > TAG3 LSUB "" "*"\r\n
+[07:46:42.631][c7f8efe0] IMAP[DATA]: < * LSUB () "." "Trash"\r\n
+[07:46:42.631][c7f8efe0] IMAP[DATA]: < * LSUB () "." "Sent"\r\n
+[07:46:42.631][c7f8efe0] IMAP[DATA]: < * LSUB () "." "Archive"\r\n
+[07:46:42.631][c7f8efe0] IMAP[DATA]: < * LSUB () "." "Drafts"\r\n
+[07:46:42.631][c7f8efe0] IMAP[DATA]: < * LSUB () "." "INBOX"\r\n
+[07:46:42.631][c7f8efe0] IMAP[DATA]: < * LSUB () "." "Notes"\r\n
+[07:46:42.632][c7f8efe0] IMAP[DATA]: < * LSUB () "." "Deleted Messages"\r\n
+[07:46:42.632][c7f8efe0] IMAP[DATA]: < * LSUB () "." "Sent Messages"\r\n
+[07:46:42.632][c7f8efe0] IMAP[DATA]: < TAG3 OK Lsub completed.\r\n
+[07:46:42.634][c7f8efe0] IMAP[DATA]: > TAG4 CAPABILITY\r\n
+[07:46:42.634][c7f8efe0] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[07:46:42.634][c7f8efe0] IMAP[DATA]: < TAG4 OK Capability completed.\r\n
+[07:46:42.635][c7f8efe0] IMAP[DATA]: > TAG5 NAMESPACE\r\n
+[07:46:42.635][c7f8efe0] IMAP[DATA]: < * NAMESPACE (("" ".")) NIL NIL\r\n
+[07:46:42.635][c7f8efe0] IMAP[DATA]: < TAG5 OK Namespace completed.\r\n
+[07:46:42.637][c7f8efe0] AJAX[DATA]: {"Action":"Folders","Result":{"@Object":"Collection\/FolderCollection","@Count":10,"@Collection":[{"@Object":"Object\/Folder","Name":"INBOX","FullName":"INBOX","FullNameRaw":"INBOX","FullNameHash":"INBOX","Delimiter":".","HasVisibleSubFolders":false,"IsSubscribed":true,"IsExists":true,"IsSelectable"...
+[07:46:42.638][c7f8efe0] IMAP[DATA]: > TAG6 LOGOUT\r\n
+[07:46:42.638][c7f8efe0] IMAP[DATA]: < * BYE Logging out\r\n
+[07:46:42.638][c7f8efe0] IMAP[DATA]: < TAG6 OK Logout completed.\r\n
+[07:46:42.638][c7f8efe0] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:46:42.638][c7f8efe0] INFO[MEMORY]: Memory peak usage: 2MB
+[07:46:42.638][c7f8efe0] INFO[TIME]: Time delta: 0.10857701301575
+
+[07:46:55.782][36726118] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5745][nginx/1.0.15][fpm-fcgi]
+[07:46:55.782][36726118] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:46:55.782][36726118] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:46:55.782][36726118] AJAX[NOTE]: Action: DoQuota
+[07:46:55.782][36726118] POST[DATA]: {"Action":"Quota","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:46:55.784][36726118] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:46:55.784][36726118] IMAP[NOTE]: Connected (success)
+[07:46:55.789][36726118] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:46:55.790][36726118] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:46:55.883][36726118] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:46:55.884][36726118] IMAP[DATA]: > TAG2 CAPABILITY\r\n
+[07:46:55.884][36726118] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[07:46:55.884][36726118] IMAP[DATA]: < TAG2 OK Capability completed.\r\n
+[07:46:55.885][36726118] AJAX[DATA]: {"Action":"Quota","Result":false,"Time":105}
+[07:46:55.885][36726118] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:46:55.885][36726118] IMAP[DATA]: < * BYE Logging out\r\n
+[07:46:55.885][36726118] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:46:55.885][36726118] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:46:55.885][36726118] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:46:55.885][36726118] INFO[TIME]: Time delta: 0.10544896125793
+
+[07:47:23.007][06ea94ae] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18115][nginx/1.0.15][fpm-fcgi]
+[07:47:23.007][06ea94ae] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:47:23.007][06ea94ae] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:47:23.007][06ea94ae] AJAX[NOTE]: Action: DoFolderInformationMultiply
+[07:47:23.007][06ea94ae] POST[DATA]: {"Folders":["Archive","Deleted Messages","Drafts","Notes","Sent"],"Action":"FolderInformationMultiply","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:47:23.009][06ea94ae] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:47:23.010][06ea94ae] IMAP[NOTE]: Connected (success)
+[07:47:23.014][06ea94ae] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:47:23.015][06ea94ae] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:47:23.107][06ea94ae] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:47:23.108][06ea94ae] IMAP[DATA]: > TAG2 STATUS "Archive" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:47:23.108][06ea94ae] IMAP[DATA]: < * STATUS "Archive" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[07:47:23.108][06ea94ae] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:47:23.108][06ea94ae] IMAP[DATA]: > TAG3 STATUS "Deleted Messages" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:47:23.109][06ea94ae] IMAP[DATA]: < * STATUS "Deleted Messages" (MESSAGES 0 UIDNEXT 34 UNSEEN 0)\r\n
+[07:47:23.109][06ea94ae] IMAP[DATA]: < TAG3 OK Status completed.\r\n
+[07:47:23.109][06ea94ae] IMAP[DATA]: > TAG4 STATUS "Drafts" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:47:23.109][06ea94ae] IMAP[DATA]: < * STATUS "Drafts" (MESSAGES 4 UIDNEXT 17 UNSEEN 0)\r\n
+[07:47:23.110][06ea94ae] IMAP[DATA]: < TAG4 OK Status completed.\r\n
+[07:47:23.110][06ea94ae] IMAP[DATA]: > TAG5 STATUS "Notes" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:47:23.110][06ea94ae] IMAP[DATA]: < * STATUS "Notes" (MESSAGES 4 UIDNEXT 5 UNSEEN 0)\r\n
+[07:47:23.110][06ea94ae] IMAP[DATA]: < TAG5 OK Status completed.\r\n
+[07:47:23.111][06ea94ae] IMAP[DATA]: > TAG6 STATUS "Sent" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:47:23.111][06ea94ae] IMAP[DATA]: < * STATUS "Sent" (MESSAGES 1266 UIDNEXT 1280 UNSEEN 52)\r\n
+[07:47:23.111][06ea94ae] IMAP[DATA]: < TAG6 OK Status completed.\r\n
+[07:47:23.111][06ea94ae] AJAX[DATA]: {"Action":"FolderInformationMultiply","Result":{"List":[{"Folder":"Archive","Hash":"e72d97be87c601c9b3e73c866c907302","MessageCount":0,"MessageUnseenCount":0,"UidNext":"1","Flags":[],"NewMessages":[]},{"Folder":"Deleted Messages","Hash":"8cf3366b71f18889d5c5981e911a0c5b","MessageCount":0,"MessageUns...
+[07:47:23.111][06ea94ae] IMAP[DATA]: > TAG7 LOGOUT\r\n
+[07:47:23.112][06ea94ae] IMAP[DATA]: < * BYE Logging out\r\n
+[07:47:23.112][06ea94ae] IMAP[DATA]: < TAG7 OK Logout completed.\r\n
+[07:47:23.112][06ea94ae] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:47:23.112][06ea94ae] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:47:23.112][06ea94ae] INFO[TIME]: Time delta: 0.10697793960571
+
+[07:47:53.679][1c302f1a] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18091][nginx/1.0.15][fpm-fcgi]
+[07:47:53.679][1c302f1a] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:47:53.679][1c302f1a] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:47:53.679][1c302f1a] AJAX[NOTE]: Action: DoFolderInformation
+[07:47:53.679][1c302f1a] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:47:53.681][1c302f1a] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:47:53.682][1c302f1a] IMAP[NOTE]: Connected (success)
+[07:47:53.686][1c302f1a] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:47:53.687][1c302f1a] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:47:53.778][1c302f1a] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:47:53.779][1c302f1a] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:47:53.779][1c302f1a] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[07:47:53.780][1c302f1a] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:47:53.780][1c302f1a] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":103}
+[07:47:53.780][1c302f1a] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:47:53.780][1c302f1a] IMAP[DATA]: < * BYE Logging out\r\n
+[07:47:53.780][1c302f1a] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:47:53.780][1c302f1a] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:47:53.781][1c302f1a] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:47:53.781][1c302f1a] INFO[TIME]: Time delta: 0.10348892211914
+
+[07:49:54.736][c57efb1c] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5747][nginx/1.0.15][fpm-fcgi]
+[07:49:54.736][c57efb1c] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:49:54.736][c57efb1c] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:49:54.736][c57efb1c] AJAX[NOTE]: Action: DoFolderInformation
+[07:49:54.736][c57efb1c] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:49:54.738][c57efb1c] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:49:54.739][c57efb1c] IMAP[NOTE]: Connected (success)
+[07:49:54.761][c57efb1c] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:49:54.761][c57efb1c] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:49:54.858][c57efb1c] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:49:54.859][c57efb1c] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:49:54.860][c57efb1c] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[07:49:54.860][c57efb1c] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:49:54.860][c57efb1c] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":126}
+[07:49:54.860][c57efb1c] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:49:54.860][c57efb1c] IMAP[DATA]: < * BYE Logging out\r\n
+[07:49:54.861][c57efb1c] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:49:54.861][c57efb1c] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:49:54.861][c57efb1c] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:49:54.861][c57efb1c] INFO[TIME]: Time delta: 0.12670016288757
+
+[07:50:24.001][2dd3d5cf] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18119][nginx/1.0.15][fpm-fcgi]
+[07:50:24.001][2dd3d5cf] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:50:24.001][2dd3d5cf] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:50:24.002][2dd3d5cf] AJAX[NOTE]: Action: DoFolderInformationMultiply
+[07:50:24.002][2dd3d5cf] POST[DATA]: {"Folders":["Junk","Sent Messages","Trash","&mo+abE6RW6JnDXaE- &W6JiNw-"],"Action":"FolderInformationMultiply","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:50:24.004][2dd3d5cf] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:50:24.004][2dd3d5cf] IMAP[NOTE]: Connected (success)
+[07:50:24.009][2dd3d5cf] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:50:24.009][2dd3d5cf] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:50:24.099][2dd3d5cf] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:50:24.099][2dd3d5cf] IMAP[DATA]: > TAG2 STATUS "Junk" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:50:24.100][2dd3d5cf] IMAP[DATA]: < * STATUS "Junk" (MESSAGES 64 UIDNEXT 78 UNSEEN 45)\r\n
+[07:50:24.100][2dd3d5cf] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:50:24.100][2dd3d5cf] IMAP[DATA]: > TAG3 STATUS "Sent Messages" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:50:24.101][2dd3d5cf] IMAP[DATA]: < * STATUS "Sent Messages" (MESSAGES 7 UIDNEXT 8 UNSEEN 0)\r\n
+[07:50:24.101][2dd3d5cf] IMAP[DATA]: < TAG3 OK Status completed.\r\n
+[07:50:24.101][2dd3d5cf] IMAP[DATA]: > TAG4 STATUS "Trash" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:50:24.101][2dd3d5cf] IMAP[DATA]: < * STATUS "Trash" (MESSAGES 17 UIDNEXT 70 UNSEEN 0)\r\n
+[07:50:24.102][2dd3d5cf] IMAP[DATA]: < TAG4 OK Status completed.\r\n
+[07:50:24.102][2dd3d5cf] IMAP[DATA]: > TAG5 STATUS "&mo+abE6RW6JnDXaE- &W6JiNw-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:50:24.102][2dd3d5cf] IMAP[DATA]: < * STATUS "&mo+abE6RW6JnDXaE- &W6JiNw-" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[07:50:24.102][2dd3d5cf] IMAP[DATA]: < TAG5 OK Status completed.\r\n
+[07:50:24.103][2dd3d5cf] AJAX[DATA]: {"Action":"FolderInformationMultiply","Result":{"List":[{"Folder":"Junk","Hash":"c08ad9ac8f321b8c3db44e8de023e7e5","MessageCount":64,"MessageUnseenCount":45,"UidNext":"78","Flags":[],"NewMessages":[]},{"Folder":"Sent Messages","Hash":"79525d2536727dd72b424495b02a026f","MessageCount":7,"MessageUnseen...
+[07:50:24.103][2dd3d5cf] IMAP[DATA]: > TAG6 LOGOUT\r\n
+[07:50:24.103][2dd3d5cf] IMAP[DATA]: < * BYE Logging out\r\n
+[07:50:24.103][2dd3d5cf] IMAP[DATA]: < TAG6 OK Logout completed.\r\n
+[07:50:24.103][2dd3d5cf] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:50:24.103][2dd3d5cf] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:50:24.103][2dd3d5cf] INFO[TIME]: Time delta: 0.1038830280304
+
+[07:51:54.577][5b291f57] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:14385][nginx/1.0.15][fpm-fcgi]
+[07:51:54.577][5b291f57] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:51:54.577][5b291f57] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:51:54.577][5b291f57] AJAX[NOTE]: Action: DoFolderInformation
+[07:51:54.577][5b291f57] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:51:54.579][5b291f57] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:51:54.580][5b291f57] IMAP[NOTE]: Connected (success)
+[07:51:54.602][5b291f57] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:51:54.602][5b291f57] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:51:54.696][5b291f57] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:51:54.697][5b291f57] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:51:54.698][5b291f57] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[07:51:54.698][5b291f57] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:51:54.698][5b291f57] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":124}
+[07:51:54.698][5b291f57] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:51:54.698][5b291f57] IMAP[DATA]: < * BYE Logging out\r\n
+[07:51:54.699][5b291f57] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:51:54.699][5b291f57] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:51:54.699][5b291f57] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:51:54.699][5b291f57] INFO[TIME]: Time delta: 0.1243999004364
+
+[07:51:56.989][0e13ebec] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18089][nginx/1.0.15][fpm-fcgi]
+[07:51:56.989][0e13ebec] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:51:56.989][0e13ebec] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:51:56.990][0e13ebec] AJAX[NOTE]: Action: DoQuota
+[07:51:56.990][0e13ebec] POST[DATA]: {"Action":"Quota","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:51:56.992][0e13ebec] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:51:56.992][0e13ebec] IMAP[NOTE]: Connected (success)
+[07:51:56.996][0e13ebec] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:51:56.997][0e13ebec] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:51:57.085][0e13ebec] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:51:57.085][0e13ebec] IMAP[DATA]: > TAG2 CAPABILITY\r\n
+[07:51:57.085][0e13ebec] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[07:51:57.086][0e13ebec] IMAP[DATA]: < TAG2 OK Capability completed.\r\n
+[07:51:57.086][0e13ebec] AJAX[DATA]: {"Action":"Quota","Result":false,"Time":99}
+[07:51:57.086][0e13ebec] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:51:57.086][0e13ebec] IMAP[DATA]: < * BYE Logging out\r\n
+[07:51:57.087][0e13ebec] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:51:57.087][0e13ebec] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:51:57.087][0e13ebec] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:51:57.087][0e13ebec] INFO[TIME]: Time delta: 0.099455118179321
+
+[07:53:24.900][474b786a] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:14393][nginx/1.0.15][fpm-fcgi]
+[07:53:24.900][474b786a] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:53:24.900][474b786a] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:53:24.901][474b786a] AJAX[NOTE]: Action: DoFolderInformationMultiply
+[07:53:24.901][474b786a] POST[DATA]: {"Folders":["Archive","Deleted Messages","Drafts","Notes","Sent"],"Action":"FolderInformationMultiply","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:53:24.903][474b786a] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:53:24.903][474b786a] IMAP[NOTE]: Connected (success)
+[07:53:24.925][474b786a] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:53:24.926][474b786a] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:53:25.018][474b786a] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:53:25.019][474b786a] IMAP[DATA]: > TAG2 STATUS "Archive" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:53:25.020][474b786a] IMAP[DATA]: < * STATUS "Archive" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[07:53:25.020][474b786a] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:53:25.020][474b786a] IMAP[DATA]: > TAG3 STATUS "Deleted Messages" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:53:25.020][474b786a] IMAP[DATA]: < * STATUS "Deleted Messages" (MESSAGES 0 UIDNEXT 34 UNSEEN 0)\r\n
+[07:53:25.020][474b786a] IMAP[DATA]: < TAG3 OK Status completed.\r\n
+[07:53:25.021][474b786a] IMAP[DATA]: > TAG4 STATUS "Drafts" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:53:25.021][474b786a] IMAP[DATA]: < * STATUS "Drafts" (MESSAGES 4 UIDNEXT 17 UNSEEN 0)\r\n
+[07:53:25.021][474b786a] IMAP[DATA]: < TAG4 OK Status completed.\r\n
+[07:53:25.021][474b786a] IMAP[DATA]: > TAG5 STATUS "Notes" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:53:25.022][474b786a] IMAP[DATA]: < * STATUS "Notes" (MESSAGES 4 UIDNEXT 5 UNSEEN 0)\r\n
+[07:53:25.022][474b786a] IMAP[DATA]: < TAG5 OK Status completed.\r\n
+[07:53:25.022][474b786a] IMAP[DATA]: > TAG6 STATUS "Sent" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:53:25.022][474b786a] IMAP[DATA]: < * STATUS "Sent" (MESSAGES 1266 UIDNEXT 1280 UNSEEN 52)\r\n
+[07:53:25.023][474b786a] IMAP[DATA]: < TAG6 OK Status completed.\r\n
+[07:53:25.023][474b786a] AJAX[DATA]: {"Action":"FolderInformationMultiply","Result":{"List":[{"Folder":"Archive","Hash":"e72d97be87c601c9b3e73c866c907302","MessageCount":0,"MessageUnseenCount":0,"UidNext":"1","Flags":[],"NewMessages":[]},{"Folder":"Deleted Messages","Hash":"8cf3366b71f18889d5c5981e911a0c5b","MessageCount":0,"MessageUns...
+[07:53:25.023][474b786a] IMAP[DATA]: > TAG7 LOGOUT\r\n
+[07:53:25.023][474b786a] IMAP[DATA]: < * BYE Logging out\r\n
+[07:53:25.023][474b786a] IMAP[DATA]: < TAG7 OK Logout completed.\r\n
+[07:53:25.024][474b786a] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:53:25.024][474b786a] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:53:25.024][474b786a] INFO[TIME]: Time delta: 0.12511014938354
+
+[07:53:55.529][3ca82a29] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:6342][nginx/1.0.15][fpm-fcgi]
+[07:53:55.529][3ca82a29] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:53:55.529][3ca82a29] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:53:55.530][3ca82a29] AJAX[NOTE]: Action: DoFolderInformation
+[07:53:55.530][3ca82a29] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:53:55.532][3ca82a29] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:53:55.532][3ca82a29] IMAP[NOTE]: Connected (success)
+[07:53:55.537][3ca82a29] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:53:55.537][3ca82a29] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:53:55.626][3ca82a29] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:53:55.626][3ca82a29] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:53:55.627][3ca82a29] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[07:53:55.627][3ca82a29] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:53:55.628][3ca82a29] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":100}
+[07:53:55.628][3ca82a29] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:53:55.628][3ca82a29] IMAP[DATA]: < * BYE Logging out\r\n
+[07:53:55.628][3ca82a29] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:53:55.628][3ca82a29] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:53:55.628][3ca82a29] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:53:55.628][3ca82a29] INFO[TIME]: Time delta: 0.1007251739502
+
+[07:55:56.669][721e3a00] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:7475][nginx/1.0.15][fpm-fcgi]
+[07:55:56.669][721e3a00] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:55:56.669][721e3a00] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:55:56.669][721e3a00] AJAX[NOTE]: Action: DoFolderInformation
+[07:55:56.670][721e3a00] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:55:56.671][721e3a00] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:55:56.672][721e3a00] IMAP[NOTE]: Connected (success)
+[07:55:56.676][721e3a00] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:55:56.677][721e3a00] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:55:56.765][721e3a00] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:55:56.765][721e3a00] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:55:56.766][721e3a00] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[07:55:56.766][721e3a00] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:55:56.766][721e3a00] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":99}
+[07:55:56.767][721e3a00] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:55:56.767][721e3a00] IMAP[DATA]: < * BYE Logging out\r\n
+[07:55:56.767][721e3a00] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:55:56.767][721e3a00] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:55:56.767][721e3a00] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:55:56.767][721e3a00] INFO[TIME]: Time delta: 0.10003185272217
+
+[07:56:25.491][d11d0548] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5748][nginx/1.0.15][fpm-fcgi]
+[07:56:25.491][d11d0548] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:56:25.491][d11d0548] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:56:25.492][d11d0548] AJAX[NOTE]: Action: DoFolderInformationMultiply
+[07:56:25.492][d11d0548] POST[DATA]: {"Folders":["Junk","Sent Messages","Trash","&mo+abE6RW6JnDXaE- &W6JiNw-"],"Action":"FolderInformationMultiply","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:56:25.494][d11d0548] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:56:25.494][d11d0548] IMAP[NOTE]: Connected (success)
+[07:56:25.499][d11d0548] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:56:25.500][d11d0548] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:56:25.590][d11d0548] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:56:25.591][d11d0548] IMAP[DATA]: > TAG2 STATUS "Junk" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:56:25.591][d11d0548] IMAP[DATA]: < * STATUS "Junk" (MESSAGES 64 UIDNEXT 78 UNSEEN 45)\r\n
+[07:56:25.591][d11d0548] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:56:25.591][d11d0548] IMAP[DATA]: > TAG3 STATUS "Sent Messages" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:56:25.592][d11d0548] IMAP[DATA]: < * STATUS "Sent Messages" (MESSAGES 7 UIDNEXT 8 UNSEEN 0)\r\n
+[07:56:25.592][d11d0548] IMAP[DATA]: < TAG3 OK Status completed.\r\n
+[07:56:25.592][d11d0548] IMAP[DATA]: > TAG4 STATUS "Trash" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:56:25.593][d11d0548] IMAP[DATA]: < * STATUS "Trash" (MESSAGES 17 UIDNEXT 70 UNSEEN 0)\r\n
+[07:56:25.593][d11d0548] IMAP[DATA]: < TAG4 OK Status completed.\r\n
+[07:56:25.593][d11d0548] IMAP[DATA]: > TAG5 STATUS "&mo+abE6RW6JnDXaE- &W6JiNw-" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:56:25.593][d11d0548] IMAP[DATA]: < * STATUS "&mo+abE6RW6JnDXaE- &W6JiNw-" (MESSAGES 0 UIDNEXT 1 UNSEEN 0)\r\n
+[07:56:25.593][d11d0548] IMAP[DATA]: < TAG5 OK Status completed.\r\n
+[07:56:25.594][d11d0548] AJAX[DATA]: {"Action":"FolderInformationMultiply","Result":{"List":[{"Folder":"Junk","Hash":"c08ad9ac8f321b8c3db44e8de023e7e5","MessageCount":64,"MessageUnseenCount":45,"UidNext":"78","Flags":[],"NewMessages":[]},{"Folder":"Sent Messages","Hash":"79525d2536727dd72b424495b02a026f","MessageCount":7,"MessageUnseen...
+[07:56:25.594][d11d0548] IMAP[DATA]: > TAG6 LOGOUT\r\n
+[07:56:25.594][d11d0548] IMAP[DATA]: < * BYE Logging out\r\n
+[07:56:25.594][d11d0548] IMAP[DATA]: < TAG6 OK Logout completed.\r\n
+[07:56:25.594][d11d0548] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:56:25.595][d11d0548] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:56:25.595][d11d0548] INFO[TIME]: Time delta: 0.10484099388123
+
+[07:56:43.491][eecf26f1] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5746][nginx/1.0.15][fpm-fcgi]
+[07:56:43.491][eecf26f1] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:56:43.491][eecf26f1] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:56:43.492][eecf26f1] AJAX[NOTE]: Action: DoFolders
+[07:56:43.492][eecf26f1] POST[DATA]: {"SentFolder":"Sent","DraftFolder":"Drafts","SpamFolder":"Junk","TrashFolder":"Trash","ArchiveFolder":"Archive","Action":"Folders","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:56:43.494][eecf26f1] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:56:43.494][eecf26f1] IMAP[NOTE]: Connected (success)
+[07:56:43.499][eecf26f1] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:56:43.499][eecf26f1] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:56:43.587][eecf26f1] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:56:43.588][eecf26f1] IMAP[DATA]: > TAG2 LIST "" "*"\r\n
+[07:56:43.588][eecf26f1] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Archive"\r\n
+[07:56:43.588][eecf26f1] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Trash"\r\n
+[07:56:43.588][eecf26f1] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Sent"\r\n
+[07:56:43.588][eecf26f1] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Sent Messages"\r\n
+[07:56:43.589][eecf26f1] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Junk"\r\n
+[07:56:43.589][eecf26f1] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Deleted Messages"\r\n
+[07:56:43.589][eecf26f1] IMAP[DATA]: < * LIST (\HasNoChildren) "." "&mo+abE6RW6JnDXaE- &W6JiNw-"\r\n
+[07:56:43.589][eecf26f1] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Drafts"\r\n
+[07:56:43.589][eecf26f1] IMAP[DATA]: < * LIST (\HasNoChildren) "." "Notes"\r\n
+[07:56:43.589][eecf26f1] IMAP[DATA]: < * LIST (\HasNoChildren) "." "INBOX"\r\n
+[07:56:43.590][eecf26f1] IMAP[DATA]: < TAG2 OK List completed.\r\n
+[07:56:43.590][eecf26f1] IMAP[DATA]: > TAG3 LSUB "" "*"\r\n
+[07:56:43.590][eecf26f1] IMAP[DATA]: < * LSUB () "." "Trash"\r\n
+[07:56:43.590][eecf26f1] IMAP[DATA]: < * LSUB () "." "Sent"\r\n
+[07:56:43.590][eecf26f1] IMAP[DATA]: < * LSUB () "." "Archive"\r\n
+[07:56:43.591][eecf26f1] IMAP[DATA]: < * LSUB () "." "Drafts"\r\n
+[07:56:43.591][eecf26f1] IMAP[DATA]: < * LSUB () "." "INBOX"\r\n
+[07:56:43.591][eecf26f1] IMAP[DATA]: < * LSUB () "." "Notes"\r\n
+[07:56:43.591][eecf26f1] IMAP[DATA]: < * LSUB () "." "Deleted Messages"\r\n
+[07:56:43.591][eecf26f1] IMAP[DATA]: < * LSUB () "." "Sent Messages"\r\n
+[07:56:43.591][eecf26f1] IMAP[DATA]: < TAG3 OK Lsub completed.\r\n
+[07:56:43.593][eecf26f1] IMAP[DATA]: > TAG4 CAPABILITY\r\n
+[07:56:43.593][eecf26f1] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[07:56:43.594][eecf26f1] IMAP[DATA]: < TAG4 OK Capability completed.\r\n
+[07:56:43.594][eecf26f1] IMAP[DATA]: > TAG5 NAMESPACE\r\n
+[07:56:43.594][eecf26f1] IMAP[DATA]: < * NAMESPACE (("" ".")) NIL NIL\r\n
+[07:56:43.594][eecf26f1] IMAP[DATA]: < TAG5 OK Namespace completed.\r\n
+[07:56:43.597][eecf26f1] AJAX[DATA]: {"Action":"Folders","Result":{"@Object":"Collection\/FolderCollection","@Count":10,"@Collection":[{"@Object":"Object\/Folder","Name":"INBOX","FullName":"INBOX","FullNameRaw":"INBOX","FullNameHash":"INBOX","Delimiter":".","HasVisibleSubFolders":false,"IsSubscribed":true,"IsExists":true,"IsSelectable"...
+[07:56:43.597][eecf26f1] IMAP[DATA]: > TAG6 LOGOUT\r\n
+[07:56:43.597][eecf26f1] IMAP[DATA]: < * BYE Logging out\r\n
+[07:56:43.597][eecf26f1] IMAP[DATA]: < TAG6 OK Logout completed.\r\n
+[07:56:43.597][eecf26f1] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:56:43.598][eecf26f1] INFO[MEMORY]: Memory peak usage: 2MB
+[07:56:43.598][eecf26f1] INFO[TIME]: Time delta: 0.10794401168823
+
+[07:56:57.677][a9835178] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:7521][nginx/1.0.15][fpm-fcgi]
+[07:56:57.677][a9835178] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:56:57.677][a9835178] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:56:57.678][a9835178] AJAX[NOTE]: Action: DoQuota
+[07:56:57.678][a9835178] POST[DATA]: {"Action":"Quota","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:56:57.680][a9835178] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:56:57.680][a9835178] IMAP[NOTE]: Connected (success)
+[07:56:57.685][a9835178] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:56:57.685][a9835178] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:56:57.775][a9835178] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:56:57.775][a9835178] IMAP[DATA]: > TAG2 CAPABILITY\r\n
+[07:56:57.775][a9835178] IMAP[DATA]: < * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS\r\n
+[07:56:57.776][a9835178] IMAP[DATA]: < TAG2 OK Capability completed.\r\n
+[07:56:57.776][a9835178] AJAX[DATA]: {"Action":"Quota","Result":false,"Time":101}
+[07:56:57.776][a9835178] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:56:57.777][a9835178] IMAP[DATA]: < * BYE Logging out\r\n
+[07:56:57.777][a9835178] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:56:57.777][a9835178] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:56:57.777][a9835178] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:56:57.777][a9835178] INFO[TIME]: Time delta: 0.1015031337738
+
+[07:57:57.465][59ff360c] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18099][nginx/1.0.15][fpm-fcgi]
+[07:57:57.465][59ff360c] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[07:57:57.465][59ff360c] REQUEST[NOTE]: [POST] https://mail.steedos.com/?/Ajax/&s=/_NJcECwoLz4DXBbCqkZlhYj-d32A6FAtNXHlNWXQznwdCqiDGC9K_6cqXxy5vXE5s2cE0lKCTXLb8hndLM-Ivj9WJ5CeaH9ew_oyLPZz3XSwpolO6T8dCknKE3z97f22t9BBsJlxznhl1n3nv2QVBKDrd7jbfwFAE0slDkwI1g69pn7DUNdwxfKg4V33qD62Z7x7u0CNXStyWSUwnA3LDs5wTArihyYtgwCyeNE9Q1Y4kzQqu8HU0zqi75qaDbvbfews0MhhPe9Pgke-_miNerJWMrYm1GB4G-fjS8BJLrO6E-UG3R4He3-MCghblRyBwubfFSEZtyvTl2sNArfXUTkZVKQEd_fpu/
+[07:57:57.465][59ff360c] AJAX[NOTE]: Action: DoFolderInformation
+[07:57:57.465][59ff360c] POST[DATA]: {"Folder":"INBOX","FlagsUids":"","UidNext":"14069","Action":"FolderInformation","XToken":"46a5e9f33c111f3c03c01c7ab71995bb"}
+[07:57:57.467][59ff360c] IMAP[NOTE]: Start connection to "tcp://mail.steedos.com:143"
+[07:57:57.468][59ff360c] IMAP[NOTE]: Connected (success)
+[07:57:57.472][59ff360c] IMAP[DATA]: < * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] SteedOS oMail ready.\r\n
+[07:57:57.473][59ff360c] IMAP[SECURE]: > TAG1 LOGIN "zhuangjianguo@steedos.com" "********"\r\n
+[07:57:57.562][59ff360c] IMAP[DATA]: < TAG1 OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS MULTIAPPEND UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS] Logged in\r\n
+[07:57:57.562][59ff360c] IMAP[DATA]: > TAG2 STATUS "INBOX" (MESSAGES UNSEEN UIDNEXT)\r\n
+[07:57:57.563][59ff360c] IMAP[DATA]: < * STATUS "INBOX" (MESSAGES 13925 UIDNEXT 14069 UNSEEN 8725)\r\n
+[07:57:57.563][59ff360c] IMAP[DATA]: < TAG2 OK Status completed.\r\n
+[07:57:57.564][59ff360c] AJAX[DATA]: {"Action":"FolderInformation","Result":{"Folder":"INBOX","Hash":"bac251c1eec38d529c40ce3a62fbdc49","MessageCount":13925,"MessageUnseenCount":8725,"UidNext":"14069","Flags":[],"NewMessages":[],"Version":"1.7.0.210"},"Time":100}
+[07:57:57.564][59ff360c] IMAP[DATA]: > TAG3 LOGOUT\r\n
+[07:57:57.564][59ff360c] IMAP[DATA]: < * BYE Logging out\r\n
+[07:57:57.564][59ff360c] IMAP[DATA]: < TAG3 OK Logout completed.\r\n
+[07:57:57.564][59ff360c] IMAP[NOTE]: Disconnected from "tcp://mail.steedos.com:143" (success)
+[07:57:57.564][59ff360c] INFO[MEMORY]: Memory peak usage: 1.75MB
+[07:57:57.564][59ff360c] INFO[TIME]: Time delta: 0.1011049747467
+
+[08:00:02.437][d0b58677] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:218.59.238.92][PID:5750][nginx/1.0.15][fpm-fcgi]
+[08:00:02.437][d0b58677] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[08:00:02.437][d0b58677] REQUEST[NOTE]: [GET] http://proxyjudge.us/
+[08:00:02.439][d0b58677] INFO[MEMORY]: Memory peak usage: 1.75MB
+[08:00:02.439][d0b58677] INFO[TIME]: Time delta: 0.0033888816833496
+
+[08:01:44.107][cb78cf50] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:61.160.247.181][PID:5745][nginx/1.0.15][fpm-fcgi]
+[08:01:44.107][cb78cf50] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[08:01:44.107][cb78cf50] REQUEST[NOTE]: [GET] http://www.baidu.com/
+[08:01:44.109][cb78cf50] INFO[MEMORY]: Memory peak usage: 1.75MB
+[08:01:44.109][cb78cf50] INFO[TIME]: Time delta: 0.0031890869140625
+
+[10:41:53.900][7ead654d] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18115][nginx/1.0.15][fpm-fcgi]
+[10:41:53.900][7ead654d] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[10:41:53.900][7ead654d] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[10:41:53.900][7ead654d] AJAX[NOTE]: Action: DoVersion
+[10:41:53.900][7ead654d] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[10:41:53.901][7ead654d] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[10:41:53.901][7ead654d] INFO[MEMORY]: Memory peak usage: 1.75MB
+[10:41:53.901][7ead654d] INFO[TIME]: Time delta: 0.0026850700378418
+
+[11:42:12.010][da769441] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18091][nginx/1.0.15][fpm-fcgi]
+[11:42:12.010][da769441] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[11:42:12.010][da769441] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[11:42:12.011][da769441] AJAX[NOTE]: Action: DoVersion
+[11:42:12.011][da769441] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[11:42:12.011][da769441] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[11:42:12.011][da769441] INFO[MEMORY]: Memory peak usage: 1.75MB
+[11:42:12.011][da769441] INFO[TIME]: Time delta: 0.0027461051940918
+
+[12:42:25.153][ab5a6881] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:14385][nginx/1.0.15][fpm-fcgi]
+[12:42:25.153][ab5a6881] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[12:42:25.153][ab5a6881] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[12:42:25.154][ab5a6881] AJAX[NOTE]: Action: DoVersion
+[12:42:25.154][ab5a6881] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[12:42:25.154][ab5a6881] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[12:42:25.154][ab5a6881] INFO[MEMORY]: Memory peak usage: 1.75MB
+[12:42:25.154][ab5a6881] INFO[TIME]: Time delta: 0.0027611255645752
+
+[13:42:41.250][861c826b] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:6342][nginx/1.0.15][fpm-fcgi]
+[13:42:41.250][861c826b] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[13:42:41.250][861c826b] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[13:42:41.250][861c826b] AJAX[NOTE]: Action: DoVersion
+[13:42:41.250][861c826b] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[13:42:41.250][861c826b] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[13:42:41.251][861c826b] INFO[MEMORY]: Memory peak usage: 1.75MB
+[13:42:41.251][861c826b] INFO[TIME]: Time delta: 0.0027391910552979
+
+[14:42:39.926][43a5cb74] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:7475][nginx/1.0.15][fpm-fcgi]
+[14:42:39.926][43a5cb74] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[14:42:39.926][43a5cb74] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[14:42:39.926][43a5cb74] AJAX[NOTE]: Action: DoVersion
+[14:42:39.926][43a5cb74] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[14:42:39.926][43a5cb74] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[14:42:39.927][43a5cb74] INFO[MEMORY]: Memory peak usage: 1.75MB
+[14:42:39.927][43a5cb74] INFO[TIME]: Time delta: 0.0027248859405518
+
+[15:21:49.443][d8b1610d] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:218.59.238.92][PID:5748][nginx/1.0.15][fpm-fcgi]
+[15:21:49.443][d8b1610d] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[15:21:49.443][d8b1610d] REQUEST[NOTE]: [GET] http://azenv.net/
+[15:21:49.445][d8b1610d] INFO[MEMORY]: Memory peak usage: 1.75MB
+[15:21:49.445][d8b1610d] INFO[TIME]: Time delta: 0.0032157897949219
+
+[15:43:02.406][480e0234] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18108][nginx/1.0.15][fpm-fcgi]
+[15:43:02.407][480e0234] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[15:43:02.407][480e0234] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[15:43:02.407][480e0234] AJAX[NOTE]: Action: DoVersion
+[15:43:02.407][480e0234] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[15:43:02.407][480e0234] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[15:43:02.408][480e0234] INFO[MEMORY]: Memory peak usage: 1.75MB
+[15:43:02.408][480e0234] INFO[TIME]: Time delta: 0.0027990341186523
+
+[15:49:45.778][581166d1] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:222.186.21.206][PID:5750][nginx/1.0.15][fpm-fcgi]
+[15:49:45.778][581166d1] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[15:49:45.778][581166d1] REQUEST[NOTE]: [GET] http://www.baidu.com/
+[15:49:45.779][581166d1] INFO[MEMORY]: Memory peak usage: 1.75MB
+[15:49:45.779][581166d1] INFO[TIME]: Time delta: 0.0031540393829346
+
+[16:30:43.131][e96e7994] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:222.186.128.53][PID:5744][nginx/1.0.15][fpm-fcgi]
+[16:30:43.131][e96e7994] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[16:30:43.131][e96e7994] REQUEST[NOTE]: [GET] http://www.baidu.com/
+[16:30:43.132][e96e7994] INFO[MEMORY]: Memory peak usage: 1.75MB
+[16:30:43.133][e96e7994] INFO[TIME]: Time delta: 0.0031189918518066
+
+[16:43:23.172][de367863] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5745][nginx/1.0.15][fpm-fcgi]
+[16:43:23.172][de367863] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[16:43:23.172][de367863] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[16:43:23.173][de367863] AJAX[NOTE]: Action: DoVersion
+[16:43:23.173][de367863] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[16:43:23.173][de367863] AJAX[DATA]: {"Action":"Version","Result":true,"Time":3}
+[16:43:23.174][de367863] INFO[MEMORY]: Memory peak usage: 1.75MB
+[16:43:23.174][de367863] INFO[TIME]: Time delta: 0.0034430027008057
+
+[17:43:24.424][69368678] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:18119][nginx/1.0.15][fpm-fcgi]
+[17:43:24.424][69368678] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[17:43:24.424][69368678] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[17:43:24.425][69368678] AJAX[NOTE]: Action: DoVersion
+[17:43:24.425][69368678] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[17:43:24.425][69368678] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[17:43:24.425][69368678] INFO[MEMORY]: Memory peak usage: 1.75MB
+[17:43:24.425][69368678] INFO[TIME]: Time delta: 0.0027050971984863
+
+[18:43:42.367][d7b6e3d2] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:14385][nginx/1.0.15][fpm-fcgi]
+[18:43:42.367][d7b6e3d2] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[18:43:42.367][d7b6e3d2] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[18:43:42.367][d7b6e3d2] AJAX[NOTE]: Action: DoVersion
+[18:43:42.367][d7b6e3d2] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[18:43:42.367][d7b6e3d2] AJAX[DATA]: {"Action":"Version","Result":true,"Time":2}
+[18:43:42.368][d7b6e3d2] INFO[MEMORY]: Memory peak usage: 1.75MB
+[18:43:42.368][d7b6e3d2] INFO[TIME]: Time delta: 0.0027840137481689
+
+[18:47:39.329][0a7cf9c0] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:222.186.21.206][PID:18089][nginx/1.0.15][fpm-fcgi]
+[18:47:39.329][0a7cf9c0] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[18:47:39.329][0a7cf9c0] REQUEST[NOTE]: [GET] http://www.baidu.com/
+[18:47:39.330][0a7cf9c0] INFO[MEMORY]: Memory peak usage: 1.75MB
+[18:47:39.330][0a7cf9c0] INFO[TIME]: Time delta: 0.0031650066375732
+
+[19:44:03.285][85e20f7a] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:6342][nginx/1.0.15][fpm-fcgi]
+[19:44:03.285][85e20f7a] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[19:44:03.285][85e20f7a] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[19:44:03.285][85e20f7a] AJAX[NOTE]: Action: DoVersion
+[19:44:03.285][85e20f7a] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[19:44:03.285][85e20f7a] AJAX[DATA]: {"Action":"Version","Result":true,"Time":62}
+[19:44:03.291][85e20f7a] INFO[MEMORY]: Memory peak usage: 1.75MB
+[19:44:03.292][85e20f7a] INFO[TIME]: Time delta: 0.066174030303955
+
+[20:24:37.688][de836bee] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:222.186.128.50][PID:7475][nginx/1.0.15][fpm-fcgi]
+[20:24:37.688][de836bee] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[20:24:37.688][de836bee] REQUEST[NOTE]: [GET] http://www.baidu.com/
+[20:24:37.705][de836bee] INFO[MEMORY]: Memory peak usage: 1.75MB
+[20:24:37.705][de836bee] INFO[TIME]: Time delta: 0.056442022323608
+
+[20:44:24.076][b6f6643d] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5746][nginx/1.0.15][fpm-fcgi]
+[20:44:24.076][b6f6643d] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[20:44:24.076][b6f6643d] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[20:44:24.077][b6f6643d] AJAX[NOTE]: Action: DoVersion
+[20:44:24.077][b6f6643d] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[20:44:24.077][b6f6643d] AJAX[DATA]: {"Action":"Version","Result":true,"Time":3}
+[20:44:24.077][b6f6643d] INFO[MEMORY]: Memory peak usage: 1.75MB
+[20:44:24.077][b6f6643d] INFO[TIME]: Time delta: 0.0031709671020508
+
+[21:44:45.835][ac6702e7] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:7521][nginx/1.0.15][fpm-fcgi]
+[21:44:45.835][ac6702e7] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[21:44:45.835][ac6702e7] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[21:44:45.835][ac6702e7] AJAX[NOTE]: Action: DoVersion
+[21:44:45.835][ac6702e7] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[21:44:45.835][ac6702e7] AJAX[DATA]: {"Action":"Version","Result":true,"Time":3}
+[21:44:45.836][ac6702e7] INFO[MEMORY]: Memory peak usage: 1.75MB
+[21:44:45.836][ac6702e7] INFO[TIME]: Time delta: 0.0031180381774902
+
+[22:24:00.785][b128c8cb] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:183.136.190.62][PID:18099][nginx/1.0.15][fpm-fcgi]
+[22:24:00.785][b128c8cb] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[22:24:00.785][b128c8cb] REQUEST[NOTE]: [GET] http://mail.steedos.com/
+[22:24:00.787][b128c8cb] INFO[MEMORY]: Memory peak usage: 1.75MB
+[22:24:00.787][b128c8cb] INFO[TIME]: Time delta: 0.00357985496521
+
+[22:42:03.048][55d874b1] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:110.75.167.213][PID:18108][nginx/1.0.15][fpm-fcgi]
+[22:42:03.048][55d874b1] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[22:42:03.048][55d874b1] REQUEST[NOTE]: [GET] http://mail.steedos.com/
+[22:42:03.049][55d874b1] INFO[MEMORY]: Memory peak usage: 1.75MB
+[22:42:03.049][55d874b1] INFO[TIME]: Time delta: 0.003593921661377
+
+[22:44:56.757][f544b4eb] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5750][nginx/1.0.15][fpm-fcgi]
+[22:44:56.757][f544b4eb] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[22:44:56.757][f544b4eb] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[22:44:56.757][f544b4eb] AJAX[NOTE]: Action: DoVersion
+[22:44:56.757][f544b4eb] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[22:44:56.758][f544b4eb] AJAX[DATA]: {"Action":"Version","Result":true,"Time":3}
+[22:44:56.758][f544b4eb] INFO[MEMORY]: Memory peak usage: 1.75MB
+[22:44:56.758][f544b4eb] INFO[TIME]: Time delta: 0.0031261444091797
+
+[23:45:05.327][682165c4] INFO[DATA]: [DATE:02.01.15][RL:1.7.0.210][PHP:5.3.3][IP:58.39.62.146][PID:5744][nginx/1.0.15][fpm-fcgi]
+[23:45:05.327][682165c4] INFO[DATA]: [Suhosin:off][APC:on][MB:on][PDO:dblib,mysql,odbc,pgsql,sqlite][Streams:tcp,udp,unix,udg,ssl,sslv3,sslv2,tls]
+[23:45:05.327][682165c4] REQUEST[NOTE]: [POST] http://mail.steedos.com/?/Ajax/&s=/0/
+[23:45:05.327][682165c4] AJAX[NOTE]: Action: DoVersion
+[23:45:05.327][682165c4] POST[DATA]: {"Version":"1.7.0.210","Action":"Version","XToken":"1ee139cf6cbc32a282a061fdfda48637"}
+[23:45:05.328][682165c4] AJAX[DATA]: {"Action":"Version","Result":true,"Time":3}
+[23:45:05.328][682165c4] INFO[MEMORY]: Memory peak usage: 1.75MB
+[23:45:05.328][682165c4] INFO[TIME]: Time delta: 0.0031769275665283
