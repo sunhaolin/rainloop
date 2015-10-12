@@ -874,7 +874,7 @@ class PdoAddressBook
 
                     $sSql = 'SELECT * FROM rainloop_ab_public_contacts WHERE group_id IN ('.\implode(',', $aIdGroups).')';
                     $sSql .= ' ORDER BY sequence ASC';
-		    $oStmt = $this->prepareAndExecute($sSql);
+                    $oStmt = $this->prepareAndExecute($sSql);
 
                     if ($oStmt)
                     {

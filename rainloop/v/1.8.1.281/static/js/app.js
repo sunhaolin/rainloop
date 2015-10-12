@@ -12957,6 +12957,11 @@
 			this.contactsSyncUrl = ko.observable('');
 			this.contactsSyncUser = ko.observable('');
 			this.contactsSyncPass = ko.observable('');
+			this.contactListChecked = ko.computed(function () {
+				return _.filter(this.contacts(), function (oItem) {
+					return oItem.checked();
+				});
+			}, this);
 		}
 
 		ContactUserStore.prototype.populate = function ()
@@ -16798,6 +16803,20 @@
 
 			this.sDefaultKeyScope = Enums.KeyState.ContactList;
 
+
+			this.checkAll = ko.computed({
+				'read': function () {
+					return 0 < ContactStore.contactListChecked().length;
+				},
+
+				'write': function (bValue) {
+					bValue = !!bValue;
+					_.each(ContactStore.contacts(), function (oContact) {
+						oContact.checked(bValue);
+					});
+				}
+			});
+
 			kn.constructorEnd(this);
 		}
 
@@ -17139,6 +17158,9 @@
 						self.contactsPage(Utils.pInt(oPage.value));
 						self.reloadContactList();
 					}
+				})
+				.on('click', '.checkboxCkeckAll', function () {
+					self.checkAll(!self.checkAll());
 				})
 			;
 
