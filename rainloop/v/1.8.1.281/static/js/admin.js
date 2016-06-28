@@ -4964,7 +4964,7 @@
 		 * @const
 		 * @type {number}
 		 */
-		Consts.Defaults.DefaultAjaxTimeout = 30000;
+		Consts.Defaults.DefaultAjaxTimeout = 60000;
 
 		/**
 		 * @const
